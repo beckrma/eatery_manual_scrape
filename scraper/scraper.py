@@ -4,17 +4,21 @@ import re
 import json
 import time
 import random
-
+ #MENU -> ORDER -> LOCATION -> PRICE
 # -------------------------------
 # RESTAURANTS WITH URL
 # -------------------------------
-restaurants = [
-    {"name": "Blaze Pizza", "url": "https://www.blazepizza.com/menu"},
-    {"name": "The Taco Stand", "url": "https://letstaco.com/menu/"},
-    {"name": "Nguyen’s Kitchen", "url": "https://www.nguyenskitchen.com/menu/"},
-    {"name": "Blk Dot Coffee", "url": "https://www.blkdotcoffee.com/?location=L8Z4FQ9TEQN51#ZBK7AVLHCGCNKDAD5WGG2HY4"},
-    {"name": "7 Leaves Coffee", "url": "https://7leavescafe.com/menu/"},
-    {"name": "Acai Republic", "url": "https://www.acairepublic.com/our-menu"}
+#restaurants = [
+  #  {"name": "Blaze Pizza", "url": "https://www.blazepizza.com/menu"},
+   # {"name": "The Taco Stand", "url": "https://letstaco.com/menu/"},
+   # {"name": "Nguyen’s Kitchen", "url": "https://www.nguyenskitchen.com/menu/"},
+   # {"name": "Blk Dot Coffee", "url": "https://www.blkdotcoffee.com/?location=L8Z4FQ9TEQN51#ZBK7AVLHCGCNKDAD5WGG2HY4"},
+   # {"name": "7 Leaves Coffee", "url": "https://7leavescafe.com/menu/"},
+   # {"name": "Acai Republic", "url": "https://www.acairepublic.com/our-menu"}
+#]
+
+test_restaurant = [
+    {"name": "Nguyen's Kitchen", "url": "https://orange.ordernguyenskitchen.com/"}
 ]
 
 all_items = []
@@ -63,9 +67,9 @@ with sync_playwright() as p:
     browser = p.chromium.launch(headless=False)  # headless=True to hide browser
     page = browser.new_page()
 
-    for r in restaurants:
+    for r in test_restaurant:
         print(f"\n🌐 Scraping {r['name']} ...")
-        page.goto(r["url"])
+        response = page.goto(r["url"])
         time.sleep(2)
 
         # -------- Agentic interactions --------
@@ -80,21 +84,23 @@ with sync_playwright() as p:
             pass
         
         # Click Menu Buttons
+        '''
         try:
             link = page.get_attribute("text=menu", "href")
             response = page.goto(link)
             time.sleep(random.uniform(2, 5))
         except:
             pass
-
+        '''
         # Click Pickup or Delivery Buttons
+        '''
         try:
             link = page.get_attribute("text=pickup", "href")
             response = page.goto(link)
             time.sleep(random.uniform(2, 5))
         except:
             pass
-
+        '''
         # Scroll slowly to load dynamic content
         for _ in range(5):
             page.evaluate("window.scrollBy(0, window.innerHeight);")
@@ -151,4 +157,4 @@ df.to_csv("menus_agentic.csv", index=False)
 with open("menus_agentic.json", "w", encoding="utf-8") as f:
     json.dump(all_items, f, ensure_ascii=False, indent=4)
 
-print(f"\n✅ Finished scraping {len(all_items)} items from {len(restaurants)} restaurants")
+print(f"\n✅ Finished scraping {len(all_items)} items from {len(test_restaurant)} restaurants")
