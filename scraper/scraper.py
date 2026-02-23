@@ -4,24 +4,13 @@ import re
 import json
 import time
 import random
- #MENU -> ORDER -> LOCATION -> PRICE
-# -------------------------------
-# RESTAURANTS WITH URL
-# -------------------------------
-#restaurants = [
-  #  {"name": "Blaze Pizza", "url": "https://www.blazepizza.com/menu"},
-   # {"name": "The Taco Stand", "url": "https://letstaco.com/menu/"},
-   # {"name": "Nguyen’s Kitchen", "url": "https://www.nguyenskitchen.com/menu/"},
-   # {"name": "Blk Dot Coffee", "url": "https://www.blkdotcoffee.com/?location=L8Z4FQ9TEQN51#ZBK7AVLHCGCNKDAD5WGG2HY4"},
-   # {"name": "7 Leaves Coffee", "url": "https://7leavescafe.com/menu/"},
-   # {"name": "Acai Republic", "url": "https://www.acairepublic.com/our-menu"}
-#]
 
 test_restaurant = [
     {"name": "Nguyen's Kitchen", "url": "https://orange.ordernguyenskitchen.com/"}
 ]
 
 all_items = []
+items_count = 0
 # -------------------------------
 # HELPER FUNCTIONS
 # -------------------------------
@@ -31,6 +20,8 @@ def extract_prices(text):
 
 def clean_text(text):
     """Remove extra whitespace and newlines"""
+    if not text:
+        return ""
     return " ".join(text.strip().split())
 
 skip_keywords = [
@@ -82,25 +73,7 @@ with sync_playwright() as p:
             page.click("button.accept, button#accept, button.cookie-consent", timeout=2000)
         except:
             pass
-        
-        # Click Menu Buttons
-        '''
-        try:
-            link = page.get_attribute("text=menu", "href")
-            response = page.goto(link)
-            time.sleep(random.uniform(2, 5))
-        except:
-            pass
-        '''
-        # Click Pickup or Delivery Buttons
-        '''
-        try:
-            link = page.get_attribute("text=pickup", "href")
-            response = page.goto(link)
-            time.sleep(random.uniform(2, 5))
-        except:
-            pass
-        '''
+
         # Scroll slowly to load dynamic content
         for _ in range(5):
             page.evaluate("window.scrollBy(0, window.innerHeight);")
@@ -113,38 +86,45 @@ with sync_playwright() as p:
 
             
         # -------- Extract all visible blocks --------
-        blocks = page.query_selector_all("div, li, section")
+        
+        categories = page.locator("new-menufy-category")
+        category_count = categories.count()
 
-        seen = set()  # deduplicate
-        for b in blocks:
-            try:
-                text = clean_text(b.inner_text())
-            except:
-                continue
-            if not is_valid(text):
-                continue
+        menu_json = []
 
-            # Extract name and prices
-            prices = extract_prices(text)
-            item_name = re.sub(r'\$?\d+(?:\.\d{2})?', '', text).strip()
+        for i in range(category_count):
+            category = categories.nth(i)
+    
+            # Grab the category name
+            cat_name = category.locator("#cat-name").inner_text()
 
-            if (r["name"], item_name) in seen:
-                continue
-            seen.add((r["name"], item_name))
-
-            # Assign section/description if multiple lines
-            description = ""
-            lines = text.split("\n")
-            if len(lines) > 1:
-                description = lines[0]
-
-            all_items.append({
+            # Grab the category description (if available)
+            cat_desc = category.locator("#menu-category-description").inner_text()
+            
+            # Grab all items inside this category
+            items = category.locator("new-menufy-item-card")
+            item_list = []
+            for j in range(items.count()):
+                item = items.nth(j)
+                item_name = item.locator(".item-name").inner_text()
+                item_price = item.locator(".item-price span").first.inner_text()
+                item_description = item.locator(".item-description").inner_text()
+                item_list.append({
+                    "name": item_name,
+                    "price": item_price,
+                    "description": item_description
+                })
+                items_count += 1
+        
+            menu_json.append({
                 "restaurant": r["name"],
-                "item": item_name,
-                "price": ", ".join(prices),
-                "description": description
+                "category": cat_name,
+                "category_description": cat_desc,
+                "items": item_list
             })
 
+        all_items.append(menu_json)
+        
     browser.close()
 
 # -------------------------------
@@ -156,5 +136,4 @@ prob_df.to_csv("menus_prob.csv", index=False)
 df.to_csv("menus_agentic.csv", index=False)
 with open("menus_agentic.json", "w", encoding="utf-8") as f:
     json.dump(all_items, f, ensure_ascii=False, indent=4)
-
-print(f"\n✅ Finished scraping {len(all_items)} items from {len(test_restaurant)} restaurants")
+print(f"\n✅ Finished scraping {items_count} item(s) from {len(test_restaurant)} restaurant(s)")
