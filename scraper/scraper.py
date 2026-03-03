@@ -9,7 +9,11 @@ test_restaurant = [
     {"name": "Nguyen's Kitchen", "url": "https://orange.ordernguyenskitchen.com/"}
 ]
 
+# Json Storage
 all_items = []
+r_prob = {"restaurant": [], "url": []}
+rest_info = []
+
 items_count = 0
 # -------------------------------
 # HELPER FUNCTIONS
@@ -50,7 +54,6 @@ def is_problematic(page, response):
         return True
     return False
 
-r_prob = {"restaurant": [], "url": []}
 # -------------------------------
 # MAIN SCRAPER
 # -------------------------------
@@ -84,8 +87,44 @@ with sync_playwright() as p:
             r_prob["url"].append(r['url'])
             pass
 
-            
-        # -------- Extract all visible blocks --------
+        # -------- Extract Theme, Logo, and Lattitude/Longitude --------
+
+        logo_meta = page.locator('meta[property="og:image"]')
+        logo = logo_meta.get_attribute("content")
+
+        header = page.locator("img.hero-img").get_attribute("src")
+
+        rest_name = page.title()
+
+        rest_desc = page.locator('meta[name="description"]')
+        rest_desc = rest_desc.get_attribute("content")
+
+        rest_hours = page.locator("#open-hours-root").first.inner_text()
+
+        extra_hours_info = page.locator(".dropdown-menu.w-full.hours-dropdown").inner_text()
+
+        rest_phone_num = page.locator('[title="Phone"]').inner_text()
+
+        rest_address = address = page.locator('a[target="_blank"][href*="maps.google.com"]').inner_text()
+
+        rest_lat = page.evaluate("window._locationLat")
+        rest_lng = page.evaluate("window._locationLng")
+
+        rest_info.append({
+            "restaurant": rest_name,
+            "logo_img": logo,
+            "header_img": header,
+            "restaurant_description": rest_desc,
+            "restaurant_hours": rest_hours,
+            "extra_hours": extra_hours_info,
+            "phone_number": rest_phone_num,
+            "address": rest_address,
+            "latitude_coordinates": rest_lat,
+            "longitude_coordinates": rest_lng
+        }
+        )
+
+        # -------- Extract all Categories and Menu Items --------
         
         categories = page.locator("new-menufy-category")
         category_count = categories.count()
@@ -109,10 +148,18 @@ with sync_playwright() as p:
                 item_name = item.locator(".item-name").inner_text()
                 item_price = item.locator(".item-price span").first.inner_text()
                 item_description = item.locator(".item-description").inner_text()
+                style = item.locator(".item-image-wrapper").evaluate("el => el.style.backgroundImage")
+                image_url = None
+                if style:
+                    match = re.search(r'url\(["\']?(.*?)["\']?\)', style)
+                    if match:
+                        image_url = match.group(1)
+
                 item_list.append({
                     "name": item_name,
                     "price": item_price,
-                    "description": item_description
+                    "description": item_description,
+                    "item_image": image_url
                 })
                 items_count += 1
         
@@ -132,8 +179,12 @@ with sync_playwright() as p:
 # -------------------------------
 df = pd.DataFrame(all_items)
 prob_df = pd.DataFrame(r_prob)
-prob_df.to_csv("menus_prob.csv", index=False)
+rest_df = pd.DataFrame(rest_info)
 df.to_csv("menus_agentic.csv", index=False)
+prob_df.to_csv("menus_prob.csv", index=False)
+rest_df.to_csv("rest_info.csv", index=False)
 with open("menus_agentic.json", "w", encoding="utf-8") as f:
     json.dump(all_items, f, ensure_ascii=False, indent=4)
+with open("restaurant_info.json", "w", encoding="utf-8") as i:
+    json.dump(rest_info, i, ensure_ascii=False, indent=4 )
 print(f"\n✅ Finished scraping {items_count} item(s) from {len(test_restaurant)} restaurant(s)")
