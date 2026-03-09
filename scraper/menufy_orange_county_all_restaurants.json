@@ -1,0 +1,932 @@
+[
+  {
+    "restaurant_name": "Cafe America",
+    "restaurant_url": "https://www.ordercafeamerica.com/",
+    "address": "2680 WALNUT AVENUE TUSTIN, CA 92780",
+    "latitude": 33.7151003,
+    "longitude": -117.8076501,
+    "logo_url": "https://menufyproduction.imgix.net/637819151655266844+728069.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 544-6961",
+    "hours": "Opening Hours Midnight - 1:00 AM 11:00 AM - Midnight"
+  },
+  {
+    "restaurant_name": "India Kitchen",
+    "restaurant_url": "https://www.IndiaKitchenca.com/order/",
+    "address": "14131 Red Hill Avenue Tustin, CA 92780-5833",
+    "latitude": 33.7325259,
+    "longitude": -117.8169669,
+    "logo_url": "https://menufyproduction.imgix.net/638627122083899698+1551035.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 505-0300",
+    "hours": "Opening Hours 11:00 AM - 2:30 PM 5:00 PM - 9:30 PM"
+  },
+  {
+    "restaurant_name": "CENTRO",
+    "restaurant_url": "https://www.OrderCentro.com/",
+    "address": "140 E MAIN ST TUSTIN, CA 92780",
+    "latitude": 33.7419795,
+    "longitude": -117.8231586,
+    "logo_url": "https://menufyproduction.imgix.net/638096626329449426+1033628.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 258-8817",
+    "hours": "Opening Hours 5:00 PM - 9:00 PM"
+  },
+  {
+    "restaurant_name": "CENTRO STORICO",
+    "restaurant_url": "https://www.OrderCentroStorico.com/",
+    "address": "405 EL CAMINO REAL TUSTIN, CA 92780",
+    "latitude": 33.74181,
+    "longitude": -117.8234444,
+    "logo_url": "https://menufyproduction.imgix.net/637314200723116573+247055.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 258-8817",
+    "hours": "Opening Hours 11:30 AM - 2:00 PM 5:00 PM - 9:00 PM"
+  },
+  {
+    "restaurant_name": "NIKIS Halal Grill & KARAHI",
+    "restaurant_url": "https://www.NikisHalalGrillandKarahi.com/order/",
+    "address": "2031 EAST 1ST STREET SANTA ANA, CA 92705",
+    "latitude": 33.7464357,
+    "longitude": -117.8377217,
+    "logo_url": "https://menufyproduction.imgix.net/638354839600720092+1269971.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 542-2969",
+    "hours": "Opening Hours 11:00 AM - Midnight"
+  },
+  {
+    "restaurant_name": "Ameci Pizza Kitchen",
+    "restaurant_url": "https://www.AmeciPizzaKitchenTustin.com/",
+    "address": "648 E 1st St Tustin, CA 92780",
+    "latitude": 33.745212,
+    "longitude": -117.8175679,
+    "logo_url": "https://menufyproduction.imgix.net/637269712332391251+218486.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 368-1446",
+    "hours": "Opening Hours 11:00 AM - 9:00 PM"
+  },
+  {
+    "restaurant_name": "KPB Asian Bistro",
+    "restaurant_url": "https://www.KPBAsianBistroTustinCA.com/",
+    "address": "137 West First Street A Tustin, CA 92780",
+    "latitude": 33.7463325,
+    "longitude": -117.8242281,
+    "logo_url": "https://menufyproduction.imgix.net/637623165891486750+511650.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(657) 600-8668",
+    "hours": "Opening Hours 11:00 AM - 9:00 PM"
+  },
+  {
+    "restaurant_name": "HUMMUS WAY SNA",
+    "restaurant_url": "https://Santaana.HummusWayCA.com/",
+    "address": "2321 East 4th Street Unit G Santa Ana, CA 92705-3862",
+    "latitude": 33.7486748,
+    "longitude": -117.8331118,
+    "logo_url": "https://menufyproduction.imgix.net/638857257047191076+1773761.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 342-3897",
+    "hours": "Opening Hours 11:00 AM - 7:00 PM"
+  },
+  {
+    "restaurant_name": "Las Gueritas",
+    "restaurant_url": "https://www.lasgueritas.com/order/",
+    "address": "230 W Warner Ave 107 Santa Ana, CA 92707",
+    "latitude": 33.7155326,
+    "longitude": -117.8706568,
+    "logo_url": "https://menufyproduction.imgix.net/638876726955568882+1792021.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 549-1822",
+    "hours": "Opening Hours 10:00 AM - Midnight"
+  },
+  {
+    "restaurant_name": "Yogis Teriyaki",
+    "restaurant_url": "https://www.YogisTeriyakiTustin.com/order/",
+    "address": "1108 IRVINE BLVD TUSTIN, CA 92780",
+    "latitude": 33.7473186,
+    "longitude": -117.8104781,
+    "logo_url": "https://menufyproduction.imgix.net/637504887970031754+399613.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 731-8876",
+    "hours": "Opening Hours 10:00 AM - 7:50 PM"
+  },
+  {
+    "restaurant_name": "THE LOST BEAN - TUSTIN",
+    "restaurant_url": "https://www.LostBeanTustin.com/",
+    "address": "13011 NEWPORT AVE TUSTIN, CA 927803524",
+    "latitude": 33.7498576,
+    "longitude": -117.8118507,
+    "logo_url": "https://menufyproduction.imgix.net/638986385354778102+1891267.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 544-2584",
+    "hours": "Opening Hours 6:00 AM - 5:00 PM"
+  },
+  {
+    "restaurant_name": "Farooj",
+    "restaurant_url": "https://www.Faroojirvine.com/order/",
+    "address": "17951 Sky Park Circle Unit F Irvine, CA 92614",
+    "latitude": 33.6898647,
+    "longitude": -117.8623305,
+    "logo_url": "https://menufyproduction.imgix.net/639014191376497155+1916505.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(949) 444-7597",
+    "hours": "Opening Hours 11:00 AM - 9:00 PM"
+  },
+  {
+    "restaurant_name": "El Taquero Guzman",
+    "restaurant_url": "https://www.taqueroguzman.com/order/",
+    "address": "925 W Warner Ave Santa Ana, CA 92707",
+    "latitude": 33.7163262,
+    "longitude": -117.8772948,
+    "logo_url": "https://menufyproduction.imgix.net/638697224640835116+1629446.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 884-4073",
+    "hours": "Opening Hours 8:00 AM - 10:00 PM"
+  },
+  {
+    "restaurant_name": "Indarra Indian Kitchen",
+    "restaurant_url": "https://www.indarraindiankitchen.com/order/",
+    "address": "17951 Sky Park Cir Unit F Irvine, CA 92614",
+    "latitude": 33.6900018,
+    "longitude": -117.862239,
+    "logo_url": "https://menufyproduction.imgix.net/638834306179332721+1755591.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 374-0008",
+    "hours": "Opening Hours 10:30 AM - 3:00 PM 5:00 PM - 9:00 PM"
+  },
+  {
+    "restaurant_name": "Gourmet Burger",
+    "restaurant_url": "https://Irvine.OrderGourmetBurger.com/",
+    "address": "17951 Sky Park Cir F Irvine, CA 92614",
+    "latitude": 33.6900018,
+    "longitude": -117.862239,
+    "logo_url": "https://menufyproduction.imgix.net/638760992493001841+1686139.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(949) 444-7587",
+    "hours": "Opening Hours Midnight - 2:00 AM 11:00 AM - Midnight"
+  },
+  {
+    "restaurant_name": "The Halal Burger",
+    "restaurant_url": "https://www.halalburgersirvine.com/order/",
+    "address": "17951 Sky Park Circle F Irvine, CA 92614",
+    "latitude": 33.6900018,
+    "longitude": -117.862239,
+    "logo_url": "https://menufyproduction.imgix.net/639020384344573563+1921708.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(713) 452-0822",
+    "hours": "Opening Hours Midnight - 3:00 AM 11:00 AM - Midnight"
+  },
+  {
+    "restaurant_name": "Spicy City",
+    "restaurant_url": "https://www.SpicyCityIrvineCA.com/order/",
+    "address": "14310 Culver Dr Irvine, CA 92604",
+    "latitude": 33.705821,
+    "longitude": -117.784167,
+    "logo_url": "https://menufyproduction.imgix.net/637679413315848164+561864.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(949) 733-9200",
+    "hours": "Opening Hours 11:00 AM - 3:00 PM 5:00 PM - 9:00 PM"
+  },
+  {
+    "restaurant_name": "BORJA'S Italian Restaurant",
+    "restaurant_url": "https://www.borjas-italian.com/order/",
+    "address": "18218 E McDurmott Ste K Irvine, CA 92614",
+    "latitude": 33.6888179,
+    "longitude": -117.8658626,
+    "logo_url": "https://menufyproduction.imgix.net/638678420539912248+1610757.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(949) 825-5000",
+    "hours": "Opening Hours 9:00 AM - 10:00 PM"
+  },
+  {
+    "restaurant_name": "Mentirosa Resto Bar",
+    "restaurant_url": "https://www.mentirosa-restobar.com/order/",
+    "address": "104 S Main St Santa Ana, CA 92701",
+    "latitude": 33.7450706,
+    "longitude": -117.8680119,
+    "logo_url": "https://menufyproduction.imgix.net/638479352047287572+1400222.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 816-4219",
+    "hours": "Opening Hours 11:00 AM - 10:00 PM"
+  },
+  {
+    "restaurant_name": "Mlem Mlem Crab",
+    "restaurant_url": "https://SantaAna.mlemmlemcrab.com/",
+    "address": "1945 East 17th St Suite 106 Santa Ana, CA 92705",
+    "latitude": 33.760842668398,
+    "longitude": -117.83872462576,
+    "logo_url": "https://menufyproduction.imgix.net/638303156162557994+1223949.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 760-4213",
+    "hours": "Opening Hours 3:00 PM - 10:00 PM"
+  },
+  {
+    "restaurant_name": "Bistro Express",
+    "restaurant_url": "https://www.BistroExpressIrvine.com/order/",
+    "address": "3161 MICHELSON DRIVE IRVINE, CA 92612",
+    "latitude": 33.6752047,
+    "longitude": -117.8434841,
+    "logo_url": "https://menufyproduction.imgix.net/637864900508513180+765669.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(949) 379-7180",
+    "hours": "Opening Hours 8:00 AM - 4:00 PM"
+  },
+  {
+    "restaurant_name": "I Heart Pancakes",
+    "restaurant_url": "https://www.orderiheartpancakestogo.com/order/",
+    "address": "3001 S Bristol St Santa Ana, CA 92704",
+    "latitude": 33.7072477,
+    "longitude": -117.8851002,
+    "logo_url": "https://menufyproduction.imgix.net/637117614951304895+134107.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 557-9849",
+    "hours": "Opening Hours 7:00 AM - 2:00 PM"
+  },
+  {
+    "restaurant_name": "Somboon Thai Food",
+    "restaurant_url": "https://www.Somboonthaifoods.com/order/",
+    "address": "1180 S Bristol St Suite 103 Santa Ana, CA 92704",
+    "latitude": 33.732543881965,
+    "longitude": -117.88617340734,
+    "logo_url": "https://menufyproduction.imgix.net/637320854525403002+251367.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 426-8443",
+    "hours": "Opening Hours 10:00 AM - 7:00 PM"
+  },
+  {
+    "restaurant_name": "THE LOST BEAN - IRVINE",
+    "restaurant_url": "https://www.LostBeanIrvine.com/",
+    "address": "4632 BARRANCA PKWY IRVINE, CA 92604",
+    "latitude": 33.6773619,
+    "longitude": -117.799933,
+    "logo_url": "https://menufyproduction.imgix.net/638986385354778102+1891267.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(949) 333-2241",
+    "hours": "Opening Hours 7:00 AM - 2:00 PM"
+  },
+  {
+    "restaurant_name": "Tacos Madre Kitchen & Cantina",
+    "restaurant_url": "https://www.TacosMadreSantaAna.com/order/",
+    "address": "3390 S BRISTOL ST SANTA ANA, CA 92704",
+    "latitude": 33.7017675,
+    "longitude": -117.8866317,
+    "logo_url": "https://menufyproduction.imgix.net/638442310569231992+1357686.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 852-3092",
+    "hours": "Opening Hours 11:00 AM - 11:00 PM"
+  },
+  {
+    "restaurant_name": "Gourmet Burger",
+    "restaurant_url": "https://SantaAna.OrderGourmetBurger.com/",
+    "address": "2431 N Tustin Ave R2 Santa Ana, CA 92705",
+    "latitude": 33.7700856,
+    "longitude": -117.8349997,
+    "logo_url": "https://menufyproduction.imgix.net/638760992493001841+1686139.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(657) 212-7716",
+    "hours": "Opening Hours Midnight - 2:00 AM 11:00 AM - Midnight"
+  },
+  {
+    "restaurant_name": "El Comedor",
+    "restaurant_url": "https://www.elcomedorCA.com/order/",
+    "address": "2202 W Edinger Ave Santa Ana, CA 92704",
+    "latitude": 33.7270138,
+    "longitude": -117.8983298,
+    "logo_url": "https://menufyproduction.imgix.net/637601501053508758+495057.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 206-2668",
+    "hours": "Opening Hours 8:00 AM - 10:00 PM"
+  },
+  {
+    "restaurant_name": "Carnitas Uruapan",
+    "restaurant_url": "https://SantaAna.OrderCarnitasUruapan.com/",
+    "address": "2106 W 5th Street Santa Ana, CA 92703",
+    "latitude": 33.7485635,
+    "longitude": -117.8970939,
+    "logo_url": "https://menufyproduction.imgix.net/637660379750545135+544315.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 953-0295",
+    "hours": "Opening Hours 8:00 AM - 7:00 PM"
+  },
+  {
+    "restaurant_name": "Nguyen's Kitchen",
+    "restaurant_url": "https://Orange.OrderNguyensKitchen.com/",
+    "address": "445 S Main St Suite B Orange, CA 92868",
+    "latitude": 33.7815681,
+    "longitude": -117.8669912,
+    "logo_url": "https://menufyproduction.imgix.net/636888699224629175+90727.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 771-5410",
+    "hours": "Opening Hours Midnight - 2:00 AM 9:00 AM - Midnight"
+  },
+  {
+    "restaurant_name": "Big Chopsticks",
+    "restaurant_url": "https://CostaMesa.BigChopsticks.com/",
+    "address": "1089 Baker St Ste C Costa Mesa, CA 92626",
+    "latitude": 33.6797226,
+    "longitude": -117.9029073,
+    "logo_url": "https://menufyproduction.imgix.net/637287116222860266+229444.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 617-4487",
+    "hours": "Opening Hours Midnight - 2:00 AM 4:00 PM - Midnight"
+  },
+  {
+    "restaurant_name": "El Cortijo Grill #2",
+    "restaurant_url": "https://www.OrderElCortijoGrill.com/order/",
+    "address": "901 W Civic Center Dr. 150 Santa Ana, CA 92703",
+    "latitude": 33.7534885,
+    "longitude": -117.9027403,
+    "logo_url": "https://menufyproduction.imgix.net/638357575670133604+1273062.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(657) 232-0305",
+    "hours": "Opening Hours 8:00 AM - 4:00 PM"
+  },
+  {
+    "restaurant_name": "Thai Towne Eatery",
+    "restaurant_url": "https://www.Thaitowneeateryorder.com/order/",
+    "address": "152 N Glassell St Suite B Orange, CA 92866",
+    "latitude": 33.78917560614,
+    "longitude": -117.853454448445,
+    "logo_url": "https://menufyproduction.imgix.net/638888982178210653+1805203.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 532-9600",
+    "hours": "Opening Hours 11:00 AM - 9:00 PM"
+  },
+  {
+    "restaurant_name": "Thai Way Restaurant",
+    "restaurant_url": "https://www.orderthaiway.com/order/",
+    "address": "648 S Harbor Blvd Santa Ana, CA 92704",
+    "latitude": 33.7387837,
+    "longitude": -117.920967,
+    "logo_url": "https://menufyproduction.imgix.net/637656756724351407+539200.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 775-7900",
+    "hours": "Opening Hours 11:00 AM - 8:30 PM"
+  },
+  {
+    "restaurant_name": "Pad Thai Restaurant",
+    "restaurant_url": "https://www.padthairestaurantca.com/order/",
+    "address": "12620 Westminster Avenue Suite A Santa Ana, CA 92706",
+    "latitude": 33.759630817476,
+    "longitude": -117.909908636246,
+    "logo_url": "https://menufyproduction.imgix.net/638805089893099561+1733198.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 486-2392",
+    "hours": "Opening Hours 11:00 AM - 9:00 PM"
+  },
+  {
+    "restaurant_name": "TACOS BOSS",
+    "restaurant_url": "https://www.OrderTacosBoss.com/",
+    "address": "2320 W CHAPMAN AVE #2318 ORANGE, CA 92868",
+    "latitude": 33.7875014,
+    "longitude": -117.8776688,
+    "logo_url": "https://menufyproduction.imgix.net/638192416955127588+1124685.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 675-9586",
+    "hours": "Opening Hours 10:00 AM - Midnight"
+  },
+  {
+    "restaurant_name": "Nuovo Amico Pizza & Pasta",
+    "restaurant_url": "https://www.nuovoamicopizzapasta.com/order/",
+    "address": "2278 Newport Blvd Costa Mesa, CA 92627",
+    "latitude": 33.6537824,
+    "longitude": -117.9058192,
+    "logo_url": "https://menufyproduction.imgix.net/638829098808915015+1751290.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(949) 574-7522",
+    "hours": "Opening Hours 4:00 PM - 9:00 PM"
+  },
+  {
+    "restaurant_name": "Game On Cafe & Lounge",
+    "restaurant_url": "https://www.GameOnCafeAndLounge.com/order/",
+    "address": "4702 W 1st St #F Santa Ana, Ca 92703, CA 92703",
+    "latitude": 33.7446611,
+    "longitude": -117.9315364,
+    "logo_url": "https://menufyproduction.imgix.net/638318709364929656+1238204.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 975-6502",
+    "hours": "Opening Hours 8:00 AM - 9:00 PM"
+  },
+  {
+    "restaurant_name": "Yummy Pho",
+    "restaurant_url": "https://FountainValley.yummyphofv.com/",
+    "address": "11035 Warner Ave Fountain Valley, CA 92708",
+    "latitude": 33.7170642,
+    "longitude": -117.9366927,
+    "logo_url": "https://menufyproduction.imgix.net/638473349900399755+1394107.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 775-1699",
+    "hours": "Opening Hours 9:00 AM - 8:00 PM"
+  },
+  {
+    "restaurant_name": "Orange Curry",
+    "restaurant_url": "https://www.OrangeCurryChapmanave.com/",
+    "address": "4033 WEST CHAPMAN AVENUE ORANGE, CA 92868",
+    "latitude": 33.7893384,
+    "longitude": -117.8968765,
+    "logo_url": "https://menufyproduction.imgix.net/637693078306001251+575607.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 363-3033",
+    "hours": "Opening Hours 11:00 AM - 9:30 PM"
+  },
+  {
+    "restaurant_name": "Panda House Restaurant",
+    "restaurant_url": "https://www.PandaHouseGardenGroveCA.com/order/",
+    "address": "12924 Harbor Blvd Garden Grove, CA 92840",
+    "latitude": 33.7746594,
+    "longitude": -117.917694,
+    "logo_url": "https://menufyproduction.imgix.net/637423604820083268+327042.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 530-8888",
+    "hours": "Opening Hours 4:00 PM - Midnight"
+  },
+  {
+    "restaurant_name": "Raising Claw",
+    "restaurant_url": "https://GardenGrove.RaisingClaw.com/",
+    "address": "13265 Harbor Blvd Garden Grove , CA 92843",
+    "latitude": 33.7704541,
+    "longitude": -117.9208268,
+    "logo_url": "https://menufyproduction.imgix.net/637720069693410566+606944.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 867-6521",
+    "hours": "Opening Hours 2:00 PM - 10:00 PM"
+  },
+  {
+    "restaurant_name": "Tandoor Cuisine Of India",
+    "restaurant_url": "https://www.TandoorCuisineKatellaAve.com/order/",
+    "address": "1132 EAST KATELLA AVENUE ORANGE, CA 92867",
+    "latitude": 33.8081917,
+    "longitude": -117.8416746,
+    "logo_url": "https://menufyproduction.imgix.net/637756354060023987+654916.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 538-2234",
+    "hours": "Opening Hours 11:30 AM - 2:30 PM 5:30 PM - 10:00 PM"
+  },
+  {
+    "restaurant_name": "Com Tam Sa Bi Chuong",
+    "restaurant_url": "https://www.comtamsabichuong.com/order/",
+    "address": "15556 Brookhurst St Suite B Westminster, CA 92683",
+    "latitude": 33.7367437,
+    "longitude": -117.9537547,
+    "logo_url": "https://menufyproduction.imgix.net/638959707077514183+1868095.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(657) 259-8598",
+    "hours": "Opening Hours 8:08 AM - 9:00 PM"
+  },
+  {
+    "restaurant_name": "Destination Seafood House",
+    "restaurant_url": "https://www.DestinationSeafoodHouse.com/order/",
+    "address": "STE A 15606 BROOKHURST ST WESTMINSTER, CA 926837582",
+    "latitude": 33.7361819,
+    "longitude": -117.9537614,
+    "logo_url": "https://menufyproduction.imgix.net/637324128354552645+253689.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 884-4692",
+    "hours": "Opening Hours Closed"
+  },
+  {
+    "restaurant_name": "Pho Gà 1 Không 2",
+    "restaurant_url": "https://www.phoga1khong2.com/order/",
+    "address": "15550 Brookhurst St Westminster, CA 92683",
+    "latitude": 33.7370757,
+    "longitude": -117.9543282,
+    "logo_url": "https://menufyproduction.imgix.net/638951165782704904+1860024.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 919-9102",
+    "hours": "Opening Hours 8:00 AM - 10:00 PM"
+  },
+  {
+    "restaurant_name": "Tacos Y Pupusas",
+    "restaurant_url": "https://www.TacosYPupusasCA.com/order/",
+    "address": "214 E Katella Ave Anaheim , CA 92802",
+    "latitude": 33.8030086090733,
+    "longitude": -117.905397205523,
+    "logo_url": "https://menufyproduction.imgix.net/636528599690857552+38831.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 535-6863",
+    "hours": "Opening Hours 8:00 AM - 10:00 PM"
+  },
+  {
+    "restaurant_name": "Pancakes House",
+    "restaurant_url": "https://www.pancakeshousetogo.com/order/",
+    "address": "1560 S Lewis St Anaheim CA 92805 Anaheim, CA 92805",
+    "latitude": 33.8094303,
+    "longitude": -117.8956694,
+    "logo_url": "https://menufyproduction.imgix.net/638587506935462133+1501321.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 280-7831",
+    "hours": "Opening Hours 6:00 AM - 2:00 PM 5:00 PM - 10:00 PM"
+  },
+  {
+    "restaurant_name": "Pho Kuroushi",
+    "restaurant_url": "https://www.phokuroushi.com/order/",
+    "address": "14376 Brookhurst St, Garden Grove, CA 92843",
+    "latitude": 33.7532333,
+    "longitude": -117.9542495,
+    "logo_url": "https://menufyproduction.imgix.net/638627097236298184+1550996.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(657) 966-8984",
+    "hours": "Opening Hours 9:00 AM - 9:00 PM"
+  },
+  {
+    "restaurant_name": "AllMyTea Cafe",
+    "restaurant_url": "https://allmyteacafe.menufy.com/",
+    "address": "400 W Disney Way Ste 129 Anaheim, CA 92802",
+    "latitude": 33.8056956,
+    "longitude": -117.9115812,
+    "logo_url": "https://menufyproduction.imgix.net/638482762754818070+1402503.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(657) 208-1065",
+    "hours": "Opening Hours 2:00 PM - 9:00 PM"
+  },
+  {
+    "restaurant_name": "Iguana's Mexican Food",
+    "restaurant_url": "https://Anaheim.IguanasMexicanFood.com/",
+    "address": "2115 East Ball Rd Anaheim, CA 92806",
+    "latitude": 33.8187017,
+    "longitude": -117.8871146,
+    "logo_url": "https://menufyproduction.imgix.net/638019561161565971+969078.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 603-7602",
+    "hours": "Opening Hours 7:00 AM - 8:00 PM"
+  },
+  {
+    "restaurant_name": "Pho Lantern Cafe",
+    "restaurant_url": "https://www.orderpholanterncafe.com/order/",
+    "address": "103 E 17TH ST COSTA MESA, CA 92627",
+    "latitude": 33.6352309,
+    "longitude": -117.923071,
+    "logo_url": "https://menufyproduction.imgix.net/638832634183553837+1754072.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(949) 515-9090",
+    "hours": "Opening Hours 10:30 AM - 9:30 PM"
+  },
+  {
+    "restaurant_name": "Pink Pig Boba Pizza",
+    "restaurant_url": "https://www.PinkPigBobaPizzaCA.com/order/",
+    "address": "1650 S Harbor Blvd STE B Anaheim, CA 92802",
+    "latitude": 33.8077425,
+    "longitude": -117.9140185,
+    "logo_url": "https://menufyproduction.imgix.net/638345442527144180+1261551.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(657) 201-3015",
+    "hours": "Opening Hours 12:30 PM - 11:00 PM"
+  },
+  {
+    "restaurant_name": "Marri's Pizza",
+    "restaurant_url": "https://www.MarrisPizzaOrder.com/",
+    "address": "1194 WEST KATELLA AVENUE ANAHEIM, CA 92802",
+    "latitude": 33.802719,
+    "longitude": -117.928081,
+    "logo_url": "https://menufyproduction.imgix.net/637781996589600461+689967.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 533-1631",
+    "hours": "Opening Hours 11:00 AM - 10:00 PM"
+  },
+  {
+    "restaurant_name": "Pho Quang Trung Restaurant",
+    "restaurant_url": "https://Bolsa.OrderPhoQuangTrung.com/",
+    "address": "9211 Bolsa Ave #101 Westminster, CA 92683",
+    "latitude": 33.7451222,
+    "longitude": -117.9679944,
+    "logo_url": "https://menufyproduction.imgix.net/638666899085727478+1600148.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 891-2800",
+    "hours": "Opening Hours 9:00 AM - 11:00 PM"
+  },
+  {
+    "restaurant_name": "Thai Famous Cuisine",
+    "restaurant_url": "https://www.ThaiFamousCuisineCA.com/order/",
+    "address": "11891 S Euclid St Garden Grove, CA 92840",
+    "latitude": 33.7899202754446,
+    "longitude": -117.941704346627,
+    "logo_url": "https://menufyproduction.imgix.net/638754954347689874+1680255.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 534-3316",
+    "hours": "Opening Hours Midnight - 1:00 AM 11:00 AM - Midnight"
+  },
+  {
+    "restaurant_name": "Pasta Party",
+    "restaurant_url": "https://PastaParty.menufy.com/",
+    "address": "124 East Lincoln Ave Orange , CA 92865",
+    "latitude": 33.8352891,
+    "longitude": -117.8518658,
+    "logo_url": "https://menufyproduction.imgix.net/638043854232164942+991310.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 998-9330",
+    "hours": "Opening Hours 11:00 AM - 8:30 PM"
+  },
+  {
+    "restaurant_name": "Asia Foodie Kitchen",
+    "restaurant_url": "https://www.AsiaFoodieKitchenOC.com/order/",
+    "address": "1198 WEST KATELLA AVENUE ANAHEIM, CA 92802",
+    "latitude": 33.802722,
+    "longitude": -117.9282751,
+    "logo_url": "https://menufyproduction.imgix.net/638736721013451785+1660965.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 844-2042",
+    "hours": "Opening Hours 11:00 AM - 9:30 PM"
+  },
+  {
+    "restaurant_name": "Dim Sum Bistro",
+    "restaurant_url": "https://www.DimSumBistroCA.com/order/",
+    "address": "9200 Bolsa Ave #301 Westminster, CA 92683",
+    "latitude": 33.7435705,
+    "longitude": -117.9686492,
+    "logo_url": "https://menufyproduction.imgix.net/637896095207299364+824436.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 248-9384",
+    "hours": "Opening Hours 9:15 AM - 6:00 PM"
+  },
+  {
+    "restaurant_name": "Arsenio's Mexican Food",
+    "restaurant_url": "https://www.OrderArsenios.com/order/",
+    "address": "9142 Garfield Ave Huntington Beach, CA 92646",
+    "latitude": 33.6864909,
+    "longitude": -117.9695671,
+    "logo_url": "https://menufyproduction.imgix.net/639011432794951333+1914842.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 965-4107",
+    "hours": "Opening Hours Open 24 Hours"
+  },
+  {
+    "restaurant_name": "VIP Tacos",
+    "restaurant_url": "https://Anaheim.VIPTacosOC.com/",
+    "address": "2790 EAST LINCOLN AVENUE ANAHEIM, CA 92806",
+    "latitude": 33.8367443,
+    "longitude": -117.8721218,
+    "logo_url": "https://menufyproduction.imgix.net/637503904920518973+398623.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 630-8477",
+    "hours": "Opening Hours 8:30 AM - 11:30 PM"
+  },
+  {
+    "restaurant_name": "Quynh Huong Food To Go",
+    "restaurant_url": "https://qheggrolls.menufy.com/order/",
+    "address": "14024 Magnolia Street Suite 102 Westminster, CA 92683",
+    "latitude": 33.758646868682,
+    "longitude": -117.971517922702,
+    "logo_url": "https://menufyproduction.imgix.net/638340216661066295+1257434.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 897-0900",
+    "hours": "Opening Hours 7:00 AM - 5:00 PM"
+  },
+  {
+    "restaurant_name": "HanNam Udon and Sushi",
+    "restaurant_url": "https://www.HanNamUdonAndSushi.com/order/",
+    "address": "12942 Galway St Ste A Garden Grove, CA 92841",
+    "latitude": 33.7748765,
+    "longitude": -117.9628379,
+    "logo_url": "https://menufyproduction.imgix.net/637402926404528107+306745.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 539-5343",
+    "hours": "Opening Hours 10:00 AM - 8:30 PM"
+  },
+  {
+    "restaurant_name": "Pho Ga Hai Van - Westminter",
+    "restaurant_url": "https://Westminster.PhoGaHaiVan.com/order/",
+    "address": "14072 Magnolia Street #107 Westminster, CA 92683",
+    "latitude": 33.7582297,
+    "longitude": -117.971559,
+    "logo_url": "https://menufyproduction.imgix.net/638593317803786227+1506325.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(657) 206-9081",
+    "hours": "Opening Hours 8:30 AM - Midnight"
+  },
+  {
+    "restaurant_name": "La Fogata",
+    "restaurant_url": "https://www.orderlafogataoc.com/",
+    "address": "3025 EAST COAST HIGHWAY NEWPORT BEACH, CA 92625",
+    "latitude": 33.5983352,
+    "longitude": -117.8723983,
+    "logo_url": "https://menufyproduction.imgix.net/637937551651283232+861276.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(949) 673-2211",
+    "hours": "Opening Hours 11:00 AM - 8:00 PM"
+  },
+  {
+    "restaurant_name": "Nava Thai Cuisine",
+    "restaurant_url": "https://www.ordernavathaicuisine.com/",
+    "address": "142 East Riverdale Ave Orange, CA 92865",
+    "latitude": 33.8421289416523,
+    "longitude": -117.851401919014,
+    "logo_url": "https://menufyproduction.imgix.net/638630592657817992+1555537.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(657) 236-4914",
+    "hours": "Opening Hours 11:00 AM - 3:00 PM 4:00 PM - 9:00 PM"
+  },
+  {
+    "restaurant_name": "Birrieria El Tijuanazo",
+    "restaurant_url": "https://Anaheim.BirrieriaElTijuanazoCA.com/",
+    "address": "676 S State College Blvd Suite 101 Anaheim, CA 92806",
+    "latitude": 33.8330045,
+    "longitude": -117.8890142,
+    "logo_url": "https://menufyproduction.imgix.net/638198632293039950+1128111.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 603-7379",
+    "hours": "Opening Hours 9:00 AM - 8:30 PM"
+  },
+  {
+    "restaurant_name": "Naples Pizza",
+    "restaurant_url": "https://www.naplespizzas.com/order/",
+    "address": "3211 GLASSEL ST ORANGE, CA 92865-1009",
+    "latitude": 33.842613,
+    "longitude": -117.8519767,
+    "logo_url": "https://menufyproduction.imgix.net/637968838269179713+886603.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 685-0051",
+    "hours": "Opening Hours 10:00 AM - 9:00 PM"
+  },
+  {
+    "restaurant_name": "HUMMUS WAY ORANGE",
+    "restaurant_url": "https://orange.HummusWayCA.com/",
+    "address": "3203 North Glassell Street Orange, CA 92865-1009",
+    "latitude": 33.8424749,
+    "longitude": -117.8517997,
+    "logo_url": "https://menufyproduction.imgix.net/637296344670071361+38885.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 342-3897",
+    "hours": "Opening Hours 11:00 AM - 8:00 PM"
+  },
+  {
+    "restaurant_name": "Hibachi Boss",
+    "restaurant_url": "https://www.hibachiboss.com/order/",
+    "address": "3213 N GLASSELL ST ORANGE, CA 92865",
+    "latitude": 33.8426583,
+    "longitude": -117.8519417,
+    "logo_url": "https://menufyproduction.imgix.net/638594177865576276+1507077.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 873-9131",
+    "hours": "Opening Hours 11:00 AM - 10:00 PM"
+  },
+  {
+    "restaurant_name": "Zabb Thai",
+    "restaurant_url": "https://www.zabbthaicuisinenb.com/order/",
+    "address": "4001 West Coast Hwy Newport Beach, CA 92663",
+    "latitude": 33.6214172,
+    "longitude": -117.9338476,
+    "logo_url": "https://menufyproduction.imgix.net/637868472255249889+769592.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(949) 432-5443",
+    "hours": "Opening Hours 11:00 AM - 9:00 PM"
+  },
+  {
+    "restaurant_name": "Carnitas La Villa",
+    "restaurant_url": "https://www.CarnitasLaVilla.com/order/",
+    "address": "3417 Newport Blvd Newport Beach, CA 92663",
+    "latitude": 33.6178001,
+    "longitude": -117.9304428,
+    "logo_url": "https://menufyproduction.imgix.net/637550569614414892+439280.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(949) 723-4432",
+    "hours": "Opening Hours 9:00 AM - 9:00 PM"
+  },
+  {
+    "restaurant_name": "Maui Hawaiian BBQ",
+    "restaurant_url": "https://www.MauiHawaiianBBQCA.com/order/",
+    "address": "16428 Beach Boulevard Westminster, CA 92683",
+    "latitude": 33.724525,
+    "longitude": -117.9864844,
+    "logo_url": "https://menufyproduction.imgix.net/636240897161640988+20040.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 596-7299",
+    "hours": "Opening Hours 11:00 AM - 9:00 PM"
+  },
+  {
+    "restaurant_name": "Soup Shop",
+    "restaurant_url": "https://Anaheim.OrderSoupShop.com/",
+    "address": "214 S State College Blvd Anaheim, CA 92806",
+    "latitude": 33.8394646,
+    "longitude": -117.8888542,
+    "logo_url": "https://menufyproduction.imgix.net/637233331755791157+187189.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 603-7802",
+    "hours": "Opening Hours Midnight - 1:30 AM 11:00 AM - Midnight"
+  },
+  {
+    "restaurant_name": "405 Com Tam & Noodle",
+    "restaurant_url": "https://www.405comtamnoodle.com/order/",
+    "address": "8528 Westminster Blvd Westminster, CA 92683",
+    "latitude": 33.7580243,
+    "longitude": -117.9795753,
+    "logo_url": "https://menufyproduction.imgix.net/638793710897070464+1722183.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 622-5621",
+    "hours": "Opening Hours 9:00 AM - 9:00 PM"
+  },
+  {
+    "restaurant_name": "Nhan Duc Hanh Vegetarian Restaurant",
+    "restaurant_url": "https://www.nhanduchanh.com/order/",
+    "address": "8528 Westminster Blvd B Westminster, CA 92683",
+    "latitude": 33.7580243,
+    "longitude": -117.9795753,
+    "logo_url": "https://menufyproduction.imgix.net/638793782422056655+1722269.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 225-5384",
+    "hours": "Opening Hours 9:00 AM - 9:00 PM"
+  },
+  {
+    "restaurant_name": "Poke Island",
+    "restaurant_url": "https://www.Pokeislandhb.com/order/",
+    "address": "8112 Talbert Ave #103 Huntington Beach, CA 92646",
+    "latitude": 33.7008705629046,
+    "longitude": -117.987580677316,
+    "logo_url": "https://menufyproduction.imgix.net/639076515519123494+1974616.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 848-7653",
+    "hours": "Opening Hours 9:00 AM - 9:00 PM"
+  },
+  {
+    "restaurant_name": "Saffron Grill",
+    "restaurant_url": "https://www.Saffrongrillhuntingtonbeach.com/order/",
+    "address": "17441 Beach Blvd Huntington Beach , CA 92647",
+    "latitude": 33.709369744914,
+    "longitude": -117.98987402209,
+    "logo_url": "https://menufyproduction.imgix.net/638884438111392439+1801277.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 843-0655",
+    "hours": "Opening Hours 11:00 AM - 9:00 PM"
+  },
+  {
+    "restaurant_name": "#1 Pho & Brew",
+    "restaurant_url": "https://www.Orderphoandbrew.com/",
+    "address": "1300 S Euclid St Suite A Anaheim, CA 92802",
+    "latitude": 33.815719,
+    "longitude": -117.9406544,
+    "logo_url": "https://menufyproduction.imgix.net/638878382432133179+1794330.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 833-5916",
+    "hours": "Opening Hours Midnight - 2:00 AM 4:00 PM - Midnight"
+  },
+  {
+    "restaurant_name": "405 Hu Tieu Noodle & Hot pot",
+    "restaurant_url": "https://www.405noodlehotpot.com/order/",
+    "address": "15454 Beach Blvd Westminster, CA 92683",
+    "latitude": 33.7377195,
+    "longitude": -117.9889679,
+    "logo_url": "https://menufyproduction.imgix.net/638793696971810919+1722159.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 892-8587",
+    "hours": "Opening Hours 8:30 AM - 8:00 PM"
+  },
+  {
+    "restaurant_name": "Aroma Pizza & Pasta",
+    "restaurant_url": "https://www.AromaLakeForest.com/order/",
+    "address": "20491 Alton Pkwy Lake Forest, CA 92630",
+    "latitude": 33.6779147,
+    "longitude": -117.676989,
+    "logo_url": "https://menufyproduction.imgix.net/636904140475582673+93353.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(949) 916-0909",
+    "hours": "Opening Hours 10:30 AM - 10:00 PM"
+  },
+  {
+    "restaurant_name": "Suthathip Thai Restaurant",
+    "restaurant_url": "https://suthathip.menufy.com/order/",
+    "address": "430 S Anaheim Hills Rd Ste H&J Anaheim, CA 92807",
+    "latitude": 33.8451301,
+    "longitude": -117.7754974,
+    "logo_url": "https://menufyproduction.imgix.net/637284349223570292+227390.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 921-3897",
+    "hours": "Opening Hours 11:00 AM - 2:45 PM 4:00 PM - 7:30 PM"
+  },
+  {
+    "restaurant_name": "Thai Gulf Restaurant",
+    "restaurant_url": "https://ThaiGulfHD.menufy.com/",
+    "address": "19072 Beach Blvd Huntington Beach, CA 92648",
+    "latitude": 33.6856195808842,
+    "longitude": -117.98835826627,
+    "logo_url": "https://menufyproduction.imgix.net/637679334299703190+561650.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 378-6003",
+    "hours": "Opening Hours 11:30 AM - 3:00 PM"
+  },
+  {
+    "restaurant_name": "Tummy Stuffer 101",
+    "restaurant_url": "https://www.TummyStuffer101LaPalma.com/order/",
+    "address": "3192 E LA PALMA AVE ANAHEIM, CA 92806",
+    "latitude": 33.8516518,
+    "longitude": -117.8533336,
+    "logo_url": "https://menufyproduction.imgix.net/638566570527127056+1482705.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 833-5416",
+    "hours": "Opening Hours 8:00 AM - 4:00 PM"
+  },
+  {
+    "restaurant_name": "Soup Shop",
+    "restaurant_url": "https://EuclidStreet.OrderSoupShop.com/",
+    "address": "920 S Euclid St Anaheim, CA 92802",
+    "latitude": 33.8190626,
+    "longitude": -117.9406208,
+    "logo_url": "https://menufyproduction.imgix.net/637233331755791157+187189.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 829-4271",
+    "hours": "Opening Hours Midnight - 1:30 AM 11:00 AM - Midnight"
+  },
+  {
+    "restaurant_name": "Baja California Mexican Grill",
+    "restaurant_url": "https://www.OrderBajaCaliforniaMexGrill.com/order/",
+    "address": "188 Lincoln Ave Anaheim, CA 92805",
+    "latitude": 33.8348762,
+    "longitude": -117.9156319,
+    "logo_url": "https://menufyproduction.imgix.net/638379173183457255+1288947.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 563-1463",
+    "hours": "Opening Hours 7:00 AM - 9:00 PM"
+  },
+  {
+    "restaurant_name": "Pollo's",
+    "restaurant_url": "https://www.PollosAnaheimCA.com/order/",
+    "address": "530 N STATE COLLEGE BLVD ANAHEIM, CA 92806",
+    "latitude": 33.8465642,
+    "longitude": -117.8888244,
+    "logo_url": "https://menufyproduction.imgix.net/638526039723169970+1444198.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 535-7777",
+    "hours": "Opening Hours 10:00 AM - 9:00 PM"
+  },
+  {
+    "restaurant_name": "Cha2Cha",
+    "restaurant_url": "https://www.cha2cha.com/order/",
+    "address": "9840 KATELLA AVE ANAHEIM, CA 92804",
+    "latitude": 33.8019846,
+    "longitude": -117.9613557,
+    "logo_url": "https://menufyproduction.imgix.net/638634818231700450+1559973.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 947-0128",
+    "hours": "Opening Hours 11:00 AM - 9:00 PM"
+  },
+  {
+    "restaurant_name": "Taqueria Las Alondras",
+    "restaurant_url": "https://www.TaqueriaLasAlondras.com/order/",
+    "address": "24324 Muirlands Blvd Lake Forest, CA 92630",
+    "latitude": 33.6276477,
+    "longitude": -117.7049651,
+    "logo_url": "https://menufyproduction.imgix.net/638544116988577269+1462379.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(949) 206-1315",
+    "hours": "Opening Hours 10:00 AM - 9:00 PM"
+  },
+  {
+    "restaurant_name": "Qua Chin Coffee & Tea",
+    "restaurant_url": "https://www.Quachincoffeentea.com/order/",
+    "address": "8095 Westminster Boulevard Westminster, CA 92683",
+    "latitude": 33.7596501,
+    "longitude": -117.9881426,
+    "logo_url": "https://menufyproduction.imgix.net/638931311543616195+1843775.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 277-7932",
+    "hours": "Opening Hours 8:00 AM - 7:00 PM"
+  },
+  {
+    "restaurant_name": "Ameci Pizza & Pasta",
+    "restaurant_url": "https://www.OrderAmeciPizzaAndPasta.com/order/",
+    "address": "25431 Trabuco Rd Lake Forest, CA 92630",
+    "latitude": 33.648066,
+    "longitude": -117.6859552,
+    "logo_url": "https://menufyproduction.imgix.net/637332796748680904+93349.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(949) 830-6401",
+    "hours": "Opening Hours 10:30 AM - 10:00 PM"
+  },
+  {
+    "restaurant_name": "Hummus Bean",
+    "restaurant_url": "https://www.OrderHummusBean.com/",
+    "address": "5745 E Santa Ana Canyon Rd Anaheim, CA 92807",
+    "latitude": 33.8521061,
+    "longitude": -117.7883637,
+    "logo_url": "https://menufyproduction.imgix.net/638227495798930681+1155275.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 363-3707",
+    "hours": "Opening Hours 10:00 AM - 9:00 PM"
+  },
+  {
+    "restaurant_name": "El Nopal Restaurante",
+    "restaurant_url": "https://www.orderElNopalRestaurante.com/",
+    "address": "530 N East St Anaheim, CA 92805",
+    "latitude": 33.8430964,
+    "longitude": -117.9039829,
+    "logo_url": "https://menufyproduction.imgix.net/638436152976284013+1351411.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 991-1732",
+    "hours": "Opening Hours 8:00 AM - 11:00 PM"
+  },
+  {
+    "restaurant_name": "Lazeez Eats",
+    "restaurant_url": "https://www.OrderLazeezEats.com/",
+    "address": "131 w center st promenade Anaheim, CA 92805",
+    "latitude": 33.831815,
+    "longitude": -117.9297338,
+    "logo_url": "https://menufyproduction.imgix.net/638206430818434392+1135259.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "phone": "(714) 603-7571",
+    "hours": "Opening Hours 10:00 AM - 8:00 PM"
+  }
+]

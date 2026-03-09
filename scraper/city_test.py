@@ -1,5 +1,4 @@
 from playwright.sync_api import sync_playwright
-import pandas as pd
 import json
 import re
 import time
@@ -7,7 +6,7 @@ import time
 
 MENUFY_URL = "https://www.menufy.com/"
 SEARCH_ADDRESS = "Orange County, CA"
-MAX_RESTAURANTS = 7
+MAX_RESTAURANTS = None
 
 
 def clean_text(text: str) -> str:
@@ -15,7 +14,6 @@ def clean_text(text: str) -> str:
 
 
 def strip_result_index(name: str) -> str:
-    # Example: "1. Nguyen's Kitchen" -> "Nguyen's Kitchen"
     return re.sub(r"^\d+\.\s*", "", name).strip()
 
 
@@ -59,64 +57,247 @@ def extract_coordinates_from_page(page):
     return lat, lon
 
 
+def extract_phone(page):
+    try:
+        tel = page.query_selector("a[href^='tel:']")
+        if tel:
+            text = clean_text(tel.inner_text())
+            if text:
+                return text
+            href = tel.get_attribute("href") or ""
+            return href.replace("tel:", "").strip()
+    except Exception:
+        pass
+    return ""
+
+
+def extract_address_from_page(page):
+    # Preferred: maps link anchor containing the rendered address text.
+    selectors = [
+        "a[href*='maps.google.com'][href*='daddr']",
+        "a[href*='google.com/maps'][href*='daddr']",
+        "a[href*='maps.google.com']",
+    ]
+    for sel in selectors:
+        try:
+            node = page.query_selector(sel)
+            if node:
+                txt = clean_text(node.inner_text())
+                if txt:
+                    return txt.strip('" ')
+        except Exception:
+            pass
+    return ""
+
+
+def extract_hours(page):
+    selectors = [
+        "#open-hours-root",
+        "#location-info-hours-dropdown-container",
+        "new-menufy-open-hours",
+        "new-menufy-open-hours-dropdown",
+        "new-menufy-location-info",
+    ]
+    for sel in selectors:
+        try:
+            node = page.query_selector(sel)
+            if node:
+                txt = clean_text(node.inner_text())
+                if txt and "hours" in txt.lower():
+                    return txt
+        except Exception:
+            pass
+
+    try:
+        txt = page.evaluate(
+            r"""() => {
+                const openHours = document.querySelector('new-menufy-open-hours');
+                if (openHours && openHours.shadowRoot) {
+                    const text = (openHours.shadowRoot.innerText || '').replace(/\s+/g, ' ').trim();
+                    if (text) return text;
+                }
+                const host = document.querySelector('new-menufy-open-hours-dropdown');
+                if (!host || !host.shadowRoot) return '';
+                const raw = (host.shadowRoot.innerText || '').replace(/\s+/g, ' ').trim();
+                return raw;
+            }"""
+        )
+        if txt and "hours" in txt.lower():
+            return txt
+    except Exception:
+        pass
+
+    return ""
+
+
+def parse_item_card(card):
+    try:
+        name_node = card.query_selector(".item-name")
+        if not name_node:
+            return None
+        name = clean_text(name_node.inner_text())
+    except Exception:
+        return None
+    if not name:
+        return None
+
+    description = ""
+    price = ""
+    item_image = None
+
+    try:
+        desc_node = card.query_selector(".item-description")
+        if desc_node:
+            description = clean_text(desc_node.inner_text())
+    except Exception:
+        pass
+
+    try:
+        price_node = card.query_selector(".item-price")
+        if price_node:
+            prices = extract_prices(clean_text(price_node.inner_text()))
+            if prices:
+                price = prices[0]
+    except Exception:
+        pass
+
+    try:
+        img_node = card.query_selector(".item-image-wrapper")
+        if img_node:
+            style = img_node.get_attribute("style") or ""
+            m = re.search(r"url\(['\"]?(https?://[^'\"\)]+)", style, flags=re.IGNORECASE)
+            if m:
+                item_image = m.group(1)
+    except Exception:
+        pass
+
+    return {
+        "name": name,
+        "price": price,
+        "description": description,
+        "item_image": item_image,
+    }
+
+
+def extract_menu_items_from_shadow(page):
+    try:
+        groups = page.evaluate(
+            r"""() => {
+                const out = [];
+                const menu = document.querySelector('new-menufy-menu');
+                if (!menu || !menu.shadowRoot) return out;
+
+                let categoryEls = [];
+                const slot = menu.shadowRoot.querySelector('slot[name="slot-id"], slot');
+                if (slot) {
+                    const assigned = slot.assignedElements ? slot.assignedElements({flatten: true}) : [];
+                    for (const el of assigned) {
+                        if (!el) continue;
+                        if (el.id === 'categories') {
+                            categoryEls.push(...el.querySelectorAll('new-menufy-category'));
+                        } else {
+                            const nested = el.querySelector ? el.querySelector('#categories') : null;
+                            if (nested) categoryEls.push(...nested.querySelectorAll('new-menufy-category'));
+                        }
+                    }
+                }
+                if (categoryEls.length === 0) {
+                    categoryEls = Array.from(document.querySelectorAll('new-menufy-category'));
+                }
+                categoryEls = Array.from(new Set(categoryEls));
+
+                categoryEls.forEach((catEl) => {
+                    const sr = catEl.shadowRoot;
+
+                    let categoryNameNode = catEl.querySelector('#cat-name, .category-name, h2, h3');
+                    let categoryDescNode = catEl.querySelector('#menu-category-description, .category-description');
+                    let itemCards = catEl.querySelectorAll('#menufy-items-container .item-link, .item-link');
+
+                    if (sr) {
+                        const catSlot = sr.querySelector('slot[name="slot-id"], slot');
+                        if (catSlot && catSlot.assignedElements) {
+                            const assigned = catSlot.assignedElements({flatten: true});
+                            for (const el of assigned) {
+                                if (!categoryNameNode) categoryNameNode = el.querySelector?.('#cat-name, .category-name, h2, h3') || null;
+                                if (!categoryDescNode) categoryDescNode = el.querySelector?.('#menu-category-description, .category-description') || null;
+                                if (!itemCards || itemCards.length === 0) {
+                                    const found = el.querySelectorAll?.('#menufy-items-container .item-link, .item-link');
+                                    if (found && found.length > 0) itemCards = found;
+                                }
+                            }
+                        }
+                    }
+
+                    const categoryName = (categoryNameNode?.textContent || '').trim() || 'Uncategorized';
+                    const categoryDescription = (categoryDescNode?.textContent || '').trim();
+
+                    const items = [];
+                    const seen = new Set();
+
+                    itemCards.forEach((card) => {
+                        const name = (card.querySelector('.item-name')?.textContent || '').trim();
+                        if (!name) return;
+
+                        const description = (card.querySelector('.item-description')?.textContent || '').trim();
+                        let price = '';
+                        const priceText = (card.querySelector('.item-price')?.textContent || '').replace(/\s+/g, ' ').trim();
+                        const priceMatch = priceText.match(/\$?\d+(?:\.\d{2})?(?:\+)?/);
+                        if (priceMatch) price = priceMatch[0];
+
+                        let itemImage = null;
+                        const style = card.querySelector('.item-image-wrapper')?.getAttribute('style') || '';
+                        const m = style.match(/url\(['"]?(https?:\/\/[^'"\)]+)/i);
+                        if (m) itemImage = m[1];
+
+                        const key = `${name.toLowerCase()}|${price}`;
+                        if (seen.has(key)) return;
+                        seen.add(key);
+
+                        items.push({
+                            name,
+                            price,
+                            description,
+                            item_image: itemImage,
+                        });
+                    });
+
+                    if (items.length > 0) {
+                        out.push({
+                            category: categoryName,
+                            category_description: categoryDescription,
+                            items,
+                        });
+                    }
+                });
+
+                return out;
+            }"""
+        )
+        return groups if isinstance(groups, list) else []
+    except Exception:
+        return []
+
+
 def extract_menu_items(page):
-    rows = []
+    shadow_groups = extract_menu_items_from_shadow(page)
+    if shadow_groups:
+        return shadow_groups
+
+    items = []
     seen = set()
-    cards = page.query_selector_all(".item-link")
-    for c in cards:
-        try:
-            name_node = c.query_selector(".item-name")
-            if not name_node:
-                continue
-            name = clean_text(name_node.inner_text())
-        except Exception:
+    for card in page.query_selector_all(".item-link"):
+        parsed = parse_item_card(card)
+        if not parsed:
             continue
-        if not name:
-            continue
-
-        description = ""
-        price = ""
-        image_url = ""
-
-        try:
-            desc_node = c.query_selector(".item-description")
-            if desc_node:
-                description = clean_text(desc_node.inner_text())
-        except Exception:
-            pass
-
-        try:
-            price_node = c.query_selector(".item-price")
-            if price_node:
-                prices = extract_prices(clean_text(price_node.inner_text()))
-                if prices:
-                    price = prices[0]
-        except Exception:
-            pass
-
-        try:
-            img_node = c.query_selector(".item-image-wrapper")
-            if img_node:
-                style = img_node.get_attribute("style") or ""
-                m = re.search(r"url\(['\"]?(https?://[^'\"\)]+)", style, flags=re.IGNORECASE)
-                if m:
-                    image_url = m.group(1)
-        except Exception:
-            pass
-
-        key = (name.lower(), price)
+        key = (parsed["name"].lower(), parsed["price"])
         if key in seen:
             continue
         seen.add(key)
-        rows.append(
-            {
-                "item_name": name,
-                "description": description,
-                "price": price,
-                "item_image_url": image_url,
-            }
-        )
-    return rows
+        items.append(parsed)
+
+    if items:
+        return [{"category": "Uncategorized", "category_description": "", "items": items}]
+    return []
 
 
 def search_restaurants(page):
@@ -129,17 +310,13 @@ def search_restaurants(page):
         except Exception:
             pass
 
-    # Address search bar from your HTML: <input id="address" ...>
     page.fill("#address", SEARCH_ADDRESS)
     time.sleep(1)
-
-    # Try selecting Google Places suggestion to make autocomplete.getPlace() valid.
     page.keyboard.press("ArrowDown")
     time.sleep(0.2)
     page.keyboard.press("Enter")
     time.sleep(0.3)
 
-    # Submit search
     try:
         page.click("#FindBtn", timeout=2500)
     except Exception:
@@ -170,7 +347,7 @@ def search_restaurants(page):
                 "url": href,
                 "latitude_search": float(lat) if lat else None,
                 "longitude_search": float(lon) if lon else None,
-                "address_search": address or "",
+                "address": address or "",
             }
         )
     return rows
@@ -179,28 +356,24 @@ def search_restaurants(page):
 def choose_restaurants(results):
     if not results:
         return []
-
     picked = []
-    used_urls = set()
-    # Select first N unique restaurants from search results.
+    seen = set()
     for r in results:
-        if len(picked) >= MAX_RESTAURANTS:
+        if MAX_RESTAURANTS is not None and len(picked) >= MAX_RESTAURANTS:
             break
-        if r["url"] in used_urls:
+        if r["url"] in seen:
             continue
+        seen.add(r["url"])
         picked.append(r)
-        used_urls.add(r["url"])
-
     return picked
 
 
 def main():
     restaurant_rows = []
     menu_rows = []
-    image_rows = []
 
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False)
+        browser = p.chromium.launch(headless=True)
         page = browser.new_page()
 
         print("Searching Menufy using address input...")
@@ -227,77 +400,45 @@ def main():
             lat_page, lon_page = extract_coordinates_from_page(page)
             lat = lat_page if lat_page is not None else r.get("latitude_search")
             lon = lon_page if lon_page is not None else r.get("longitude_search")
+            phone = extract_phone(page)
+            address = extract_address_from_page(page) or r.get("address", "")
+            hours = extract_hours(page)
 
             restaurant_rows.append(
                 {
                     "restaurant_name": r["name"],
                     "restaurant_url": r["url"],
-                    "address_search": r.get("address_search", ""),
+                    "address": address,
                     "latitude": lat,
                     "longitude": lon,
                     "logo_url": logo_url,
+                    "phone": phone,
+                    "hours": hours,
                 }
             )
 
-            if logo_url:
-                image_rows.append(
-                    {
-                        "restaurant_name": r["name"],
-                        "restaurant_url": r["url"],
-                        "type": "logo",
-                        "image_url": logo_url,
-                        "latitude": lat,
-                        "longitude": lon,
-                    }
-                )
-
-            items = extract_menu_items(page)
-            item_images_seen = set()
-            for it in items:
+            groups = extract_menu_items(page)
+            for g in groups:
                 menu_rows.append(
                     {
-                        "restaurant_name": r["name"],
-                        "restaurant_url": r["url"],
-                        "latitude": lat,
-                        "longitude": lon,
-                        "item_name": it["item_name"],
-                        "description": it["description"],
-                        "price": it["price"],
-                        "item_image_url": it["item_image_url"],
+                        "restaurant": r["name"],
+                        "category": g["category"],
+                        "category_description": g["category_description"],
+                        "items": g["items"],
                     }
                 )
-
-                if it["item_image_url"] and it["item_image_url"] not in item_images_seen:
-                    item_images_seen.add(it["item_image_url"])
-                    image_rows.append(
-                        {
-                            "restaurant_name": r["name"],
-                            "restaurant_url": r["url"],
-                            "type": "item_image",
-                            "image_url": it["item_image_url"],
-                            "latitude": lat,
-                            "longitude": lon,
-                        }
-                    )
 
         browser.close()
 
-    pd.DataFrame(restaurant_rows).to_csv("menufy_seven_restaurants.csv", index=False)
-    pd.DataFrame(menu_rows).to_csv("menufy_seven_menu_items.csv", index=False)
-    pd.DataFrame(image_rows).to_csv("menufy_seven_images.csv", index=False)
-
-    with open("menufy_seven_restaurants.json", "w", encoding="utf-8") as f:
+    with open("menufy_orange_county_all_restaurants.json", "w", encoding="utf-8") as f:
         json.dump(restaurant_rows, f, ensure_ascii=False, indent=2)
-    with open("menufy_seven_menu_items.json", "w", encoding="utf-8") as f:
+    with open("menufy_orange_county_all_menu_items.json", "w", encoding="utf-8") as f:
         json.dump(menu_rows, f, ensure_ascii=False, indent=2)
-    with open("menufy_seven_images.json", "w", encoding="utf-8") as f:
-        json.dump(image_rows, f, ensure_ascii=False, indent=2)
 
     print("Finished.")
     print("Files:")
-    print(" - menufy_seven_restaurants.csv/json")
-    print(" - menufy_seven_menu_items.csv/json")
-    print(" - menufy_seven_images.csv/json")
+    print(" - menufy_orange_county_all_restaurants.json")
+    print(" - menufy_orange_county_all_menu_items.json")
 
 
 if __name__ == "__main__":
