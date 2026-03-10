@@ -1,0 +1,65 @@
+[
+  {
+    "restaurant_name": "Cafe America",
+    "restaurant_url": "https://www.ordercafeamerica.com/",
+    "address": "",
+    "cuisine": "Bakery, BBQ, Coffee and Tea, Dessert, Hamburgers, Salads, Sandwiches",
+    "latitude": 33.7151003,
+    "longitude": -117.8076501,
+    "logo_url": "https://menufyproduction.imgix.net/637819151655266844+728069.png?auto=compress,format&h=1080&w=1920&fit=max"
+  },
+  {
+    "restaurant_name": "India Kitchen",
+    "restaurant_url": "https://www.IndiaKitchenca.com/order/",
+    "address": "",
+    "cuisine": "Chicken, Curry, Indian",
+    "latitude": 33.7325259,
+    "longitude": -117.8169669,
+    "logo_url": "https://menufyproduction.imgix.net/638627122083899698+1551035.png?auto=compress,format&h=1080&w=1920&fit=max"
+  },
+  {
+    "restaurant_name": "CENTRO",
+    "restaurant_url": "https://www.OrderCentro.com/",
+    "address": "",
+    "cuisine": "Italian, Mediterranean, Pizza, Salads, Sandwiches",
+    "latitude": 33.7419795,
+    "longitude": -117.8231586,
+    "logo_url": "https://menufyproduction.imgix.net/638096626329449426+1033628.png?auto=compress,format&h=1080&w=1920&fit=max"
+  },
+  {
+    "restaurant_name": "CENTRO STORICO",
+    "restaurant_url": "https://www.OrderCentroStorico.com/",
+    "address": "",
+    "cuisine": "Coffee and Tea, Dessert, Fish, Italian, Mediterranean, Pasta, Salads",
+    "latitude": 33.74181,
+    "longitude": -117.8234444,
+    "logo_url": "https://menufyproduction.imgix.net/637314200723116573+247055.png?auto=compress,format&h=1080&w=1920&fit=max"
+  },
+  {
+    "restaurant_name": "Ameci Pizza Kitchen",
+    "restaurant_url": "https://www.AmeciPizzaKitchenTustin.com/",
+    "address": "",
+    "cuisine": "Calzones, Chicken, Dessert, Pasta, Pizza, Salads, Subs, Wings",
+    "latitude": 33.745212,
+    "longitude": -117.8175679,
+    "logo_url": "https://menufyproduction.imgix.net/637269712332391251+218486.png?auto=compress,format&h=1080&w=1920&fit=max"
+  },
+  {
+    "restaurant_name": "NIKIS Halal Grill & KARAHI",
+    "restaurant_url": "https://www.NikisHalalGrillandKarahi.com/order/",
+    "address": "",
+    "cuisine": "Chicken, Curry, Dessert, Indian, Vegetarian",
+    "latitude": 33.7464357,
+    "longitude": -117.8377217,
+    "logo_url": "https://menufyproduction.imgix.net/638354839600720092+1269971.png?auto=compress,format&h=1080&w=1920&fit=max"
+  },
+  {
+    "restaurant_name": "KPB Asian Bistro",
+    "restaurant_url": "https://www.KPBAsianBistroTustinCA.com/",
+    "address": "",
+    "cuisine": "Asian, Chinese, Curry",
+    "latitude": 33.7463325,
+    "longitude": -117.8242281,
+    "logo_url": "https://menufyproduction.imgix.net/637623165891486750+511650.png?auto=compress,format&h=1080&w=1920&fit=max"
+  }
+]

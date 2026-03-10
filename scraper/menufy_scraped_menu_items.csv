@@ -1,0 +1,626 @@
+restaurant_name,restaurant_url,latitude,longitude,item_name,description,price,item_image_url
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Chilli Pakora,,$6.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Vegetable Pakora,,$6.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Vegetable Samosa,,$6.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Pani Puri,,$8.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Spring Rolls,,$6.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Dahi Puri,,$8.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Medu Vada,,$8.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Dahi Vada,,$13.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Chicken 65,,$16.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Paneer Pakora,,$9.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Cheff Assorted Veg Platter,,$14.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Cheff Assorted Non-veg Plattar,,$14.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Chilli Garlic Shrimp,,$19.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Onion Pakora,,$5.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Paneer 65,,$16.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Samosa Chat,,$11.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Tomato Soup,,$6.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Lentil Soup,,$6.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Hot & Sour (Veg),,$6.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Hot & Sour Sour (Chicken),,$7.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Chilli Paneer,,$16.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Vege Manchurian,,$15.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Gobhi Manchurian,,$15.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Chilli Gobhi,,$15.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Veg Fried Rice,,$15.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Veg Fried Noodles,,$15.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Chilli Chicken,,$18.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Chicken Manchurian,,$18.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Chicken Fried Rice,,$18.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Egg Fried Rice,,$18.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Shrimp Fried Rice,,$19.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Chicken Fried Noodles,,$18.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Egg Fried Noodles,,$18.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Shrimp Fried Noodles,,$19.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Chicken Tikka,,$19.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Fish Tikka,,$19.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Chicken Tandoori,,$19.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Shrimp Tandoori,,$21.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Lamb Kabab,,$22.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Malai Kabab,,$19.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Chicken Seek Kabab,,$19.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Cheff’s Mix Plattar,,$29.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Paneer Tikka,,$19.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Plain Uthapam,,$14.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Mix Vegetable Uthapam,,$15.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Onion & Hot Chilli Uthapam,,$15.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Plain Dosa,,$13.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Masala Dosa,,$15.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Cheese Masala Dosa,,$15.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Onion Dosa,,$15.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Chicken Tikka Masala,,$19.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Butter Chicken,,$19.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Chicken Curry,,$18.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Andhra Chicken Curry,,$18.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Chicken Chettinad,,$18.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Chicken Kadai,,$18.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Chicken Vindaloo,,$18.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Chicken Saag,,$18.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Chicken Korma,,$18.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Chicken Pepper Fry,,$18.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Madras Chicken Curry,,$18.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Methi Chicken,,$18.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Mint Chicken,,$18.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,White Meat,,$2.00,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Tikka Masala Sauce,,$13.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Goat Curry,,$20.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Andhra Goat Curry,,$20.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Goat Chettnad,,$20.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Goat Korma,,$20.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Goat Pepper Fry,,$20.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Lamb Curry,,$20.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Lamb Tikka Masala,,$20.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Lamb Korma,,$20.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Lamb Kadai,,$20.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Lamb Saag,,$20.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Lamb Vindaloo,,$20.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Rogan Josh,,$20.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Fish Curry,,$19.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Madras Fish Curry,,$19.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Fish Vindaloo,,$19.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Fish Tikka Masala,,$19.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Shrimp Kadai,,$21.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Shrimp Tikka Masala,,$21.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Shrimp Curry,,$21.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Shrimp Chettinad,,$21.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Shrimp Vindaloo,,$21.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Shrimp Saag,,$21.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Shrimp Korma,,$21.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Mushroom Masala,,$15.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Paneer Tikka Masala (Paneer Makhani),,$16.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Saag Paneer (Palak Paneer),,$15.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Mutter Paneer,,$16.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Chana Paneer Korma,,$16.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Chana Masala,,$15.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Bhindi Masala,,$15.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Baigan Bhartha,,$15.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Navratna Korma,,$16.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Vege Makhani,,$16.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Guthi Vankaya Koora,,$15.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Mirchi Ka Salan,,$15.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Malai Kofta,,$16.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Aloo Gobhi,,$15.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Aloo Mutter,,$15.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Saag Aloo,,$15.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Chana Saag,,$15.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Dal Makhani,,$15.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Dal Fry,,$15.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Kadhai Paneer,,$15.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Vege Tikka Masala,,$15.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Aloo Bengan,,$14.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Malai Methi Mutter,,$15.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Dum Aloo,,$15.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Vege Vindaloo,,$15.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Chana Bhatura,,$18.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Chana Bhatura,,$17.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Chana Tikka Masala,,$15.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Shahi Paneer,,$16.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Tofu Saag,,$16.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Tofu Kadhai,,$16.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Tofu Korma,,$16.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Tofu Tikka Masala,,$16.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Tofu Vindaloo,,$16.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Plain Rice,,$4.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Jeera Rice,,$8.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Peas Pillau,,$11.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Lemon Rice,,$11.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Tamarind Rice,,$11.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Biryani Rice,,$13.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Vege Biryani,,$15.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Egg Biryani,,$16.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Chicken Biryani,,$17.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Goat Biryani,,$18.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Lamb Biryani,,$19.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Shrimp Biryani,,$19.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Paneer Biryani,,$17.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Plain Naan,,$2.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Butter Naan,,$3.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Garlic Naan,,$3.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Roti,,$3.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Onion Kulcha,,$4.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Fulka,,$5.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Tawa Paratha,,$5.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Tandoori Paratha,,$4.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Aloo Paratha,,$6.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Ajwain Paratha,,$4.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Mint Paratha,,$4.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Paneer Kulcha,,$6.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Peshawari Naan,,$6.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Bullet Naan,,$5.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Aloo Kulcha,,$5.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Chilli Garlic Naan,,$3.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Gobhi Paratha,,$6.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Bhatura,,$3.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Raita,,$3.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Pickles,,$2.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Plain Yogurt,,$3.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Papad,,$2.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Green Salad,,$7.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Mango Chutney,,$3.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Mint Chutney,,$3.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Tamarind Chutney,,$3.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Sambar,,$3.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Ras Malai,,$4.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Gulab Jamun,,$4.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Gajar Halwa,,$4.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Carrot Pudding,,$4.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Mango Vanilla Pudding,,$4.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Kheer,,$4.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Mango Kulfee,,$4.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Pistachio Kulfee,,$4.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Mango Lassi,,$4.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Sweet Lassi,,$4.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Salt Lassi,,$4.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Indian Masala Tea,,$3.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Green Tea,,$2.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Madras Coffee,,$4.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Apple Juice,,$2.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Mango Juice,,$3.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Orange Juice,,$2.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Cranberry Juice,,$2.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Diet Pepsi,,$2.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Pepsi,,$2.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Starry,,$2.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Orange Crush,,$2.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Lemonade Tropicana,,$2.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Iced Tea Lipton,,$2.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Bottled Water,,$2.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Perrior,,$3.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Arnold Palmer,,$2.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Club Soda,,$2.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Mango Shake,,$3.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Black Tea,,$2.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Lemonade Ice Tea,,$2.95,
+India Kitchen,https://www.IndiaKitchenca.com/order/,33.7325259,-117.8169669,Iced Tea,,$2.95,
+CENTRO,https://www.OrderCentro.com/,33.7419795,-117.8231586,Bruschetta,"Sliced Ciabatta Slightly Toasted and Topped with Freshly Chopped Roma Tomato, Garlic & Basil in an Extra Virgin Olive Oil and Fig Balsamic.",$13.00,"https://menufyproduction.imgix.net/636913845122790484+96186.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO,https://www.OrderCentro.com/,33.7419795,-117.8231586,Formaggio,"Sliced Baguette Toasted, French Brie, Goat Cheese, Aged Cheddar & an Additional Artisan Cheese. Served with Fresh Grapes, Fig Jam & Castelvetrano Olives. (Two Person)",$25.00,"https://menufyproduction.imgix.net/636918270101845007+96875.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO,https://www.OrderCentro.com/,33.7419795,-117.8231586,Hummus,"Hummus with Freshly Chopped Roma Tomato, Garlic & Basil. Served with Pizza Focaccia Pieces.",$16.00,"https://menufyproduction.imgix.net/636918269439216850+96874.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO,https://www.OrderCentro.com/,33.7419795,-117.8231586,Misto,"Ciabatta Bread, Prosciutto di Parma, Two Artisan Salami’s & Three Artisan Cheeses. Served with Fresh Grapes, Fig Jam & Castelvetrano Olives. (Two Person)",$36.00,"https://menufyproduction.imgix.net/636911169684288328+95925.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO,https://www.OrderCentro.com/,33.7419795,-117.8231586,Prosciutto Antipasto,"Thinly-Sliced Prosciutto di Parma, Parmigiano Reggiano Cheese, Fresh Arugula, Radicchio & Fig Basalmic.",$23.00,"https://menufyproduction.imgix.net/636913845826907173+96190.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO,https://www.OrderCentro.com/,33.7419795,-117.8231586,Kids Pizza Formaggio,San Marzano Tomatoes & Fresh Mozzarella Cheese.,$9.00,"https://menufyproduction.imgix.net/636918260987208785+96859.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO,https://www.OrderCentro.com/,33.7419795,-117.8231586,Kids Pizza Pepperoni,"San Marzano Tomatoes, Pepperoni & Fresh Mozzarella Cheese.",$11.00,"https://menufyproduction.imgix.net/636918261060603791+96860.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO,https://www.OrderCentro.com/,33.7419795,-117.8231586,Kids Panino Grigliato,Grilled White Cheddar Cheese on Half a Fresh Ciabatta Roll.,$9.00,"https://menufyproduction.imgix.net/636918259625381970+96858.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO,https://www.OrderCentro.com/,33.7419795,-117.8231586,Kids Gelato,,$5.00,"https://menufyproduction.imgix.net/636918259553909710+96857.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO,https://www.OrderCentro.com/,33.7419795,-117.8231586,Kids Apple Juice,,$4.00,
+CENTRO,https://www.OrderCentro.com/,33.7419795,-117.8231586,Bomba,Italian Gelato in a Chocolate Covered Shell. (Peanut Butter or Spumoni),$14.00,"https://menufyproduction.imgix.net/636918262268517806+96863.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO,https://www.OrderCentro.com/,33.7419795,-117.8231586,Stracciatella,"Chocolate Chip Gelato Swirled Together with Chocolate Syrup, Cocoa Powder and Hazelnuts.",$11.00,"https://menufyproduction.imgix.net/636918262579046625+96867.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO,https://www.OrderCentro.com/,33.7419795,-117.8231586,Tiramisu,"Sponge Cake Soaked in Espresso, Topped with Mascarpone Cream and Dusted with Cocoa Powder.",$15.00,"https://menufyproduction.imgix.net/636918262651618124+96868.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO,https://www.OrderCentro.com/,33.7419795,-117.8231586,Arugula Limone,"Fresh Arugula Leaves, Shaved Parmigiano Cheese, Fresh Lemon & Extra Virgin Olive Oil.",$10.00,"https://menufyproduction.imgix.net/636913843868244490+96179.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO,https://www.OrderCentro.com/,33.7419795,-117.8231586,Arugula Parmiggiano,"Fresh Arugula Leaves with Shaved Parmigiano Cheese, French Nicoise Olives & Cranberries Tossed with Extra Virgin Olive Oil & Fig Balsamic.",$10.00,"https://menufyproduction.imgix.net/636915952531900868+96392.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO,https://www.OrderCentro.com/,33.7419795,-117.8231586,Cesare Salad,"Fresh Whole Romaine Hearts, Homemade Croutons, Anchovy Lemon Dressing topped with Fresh Parmigiano Reggiano.",$13.00,"https://menufyproduction.imgix.net/636913844914711681+96185.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO,https://www.OrderCentro.com/,33.7419795,-117.8231586,Caprese,"Fresh Mozzarella Cheese, Roma Tomato, Fresh Basil Leaves Tossed with Extra Virgin Olive Oil & Fig Balsamic.",$21.00,"https://menufyproduction.imgix.net/636913844263028823+96180.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO,https://www.OrderCentro.com/,33.7419795,-117.8231586,Della Casa,"Fresh Mixed Greens, Radicchio, Fennel, Red Onion, Carrots, Blue Cheese, Black Olives & Walnuts. Tossed with Extra Virgin Olive Oil and Raspberry Balsamic.",$15.00,"https://menufyproduction.imgix.net/636913844371825875+96181.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO,https://www.OrderCentro.com/,33.7419795,-117.8231586,Insalata Ceci,"Italian Garbanzo Beans, Fresh Arugula Leaves, French Nicoise Olives, Red Onion & Chopped Roma Tomato Tossed with Extra Virgin Olive Oil & Fig Balsamic.",$12.00,"https://menufyproduction.imgix.net/636913844577620202+96182.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO,https://www.OrderCentro.com/,33.7419795,-117.8231586,Mediterranea,"Chopped Fresh Tomato, Cucumber, Mixed Greens, Red Onion, Feta Cheese, Kalamata Olives & Oregano.",$16.00,"https://menufyproduction.imgix.net/636915955147842431+96394.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO,https://www.OrderCentro.com/,33.7419795,-117.8231586,Tonno e Fagioli,"Italian Cannellini Beans, Italian Tuna, Italian Parsley, Red Onion Tossed with Extra Virgin Olive Oil & Fig Balsamic.",$21.00,"https://menufyproduction.imgix.net/636913844831477524+96184.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO,https://www.OrderCentro.com/,33.7419795,-117.8231586,Panino Pomodoro,"Tomato, Fresh Basil, Extra Virgin Olive Oil & Fresh Mozzarella. Fresh Ciabatta Roll.",$11.00,"https://menufyproduction.imgix.net/636914154467729707+96211.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO,https://www.OrderCentro.com/,33.7419795,-117.8231586,Panino Tacchino,"Turkey, Mozzarella Cheese, Arugula, Tomato & Red Onion & Basil Pesto. Fresh Ciabatta Roll.",$11.00,"https://menufyproduction.imgix.net/636914150511938347+96209.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO,https://www.OrderCentro.com/,33.7419795,-117.8231586,Panino Salame,"Italian Salame, Parmigiano Reggiano Cheese & Artichoke Pesto. Fresh Ciabatta Roll.",$12.00,"https://menufyproduction.imgix.net/636914156335219465+96212.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO,https://www.OrderCentro.com/,33.7419795,-117.8231586,Panino Porchetta,"Prosciutto di Parma (Imported), Fresh Mozzarella & Basil Pesto. Fresh Ciabatta Roll.",$18.00,"https://menufyproduction.imgix.net/636914160372347435+96215.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO,https://www.OrderCentro.com/,33.7419795,-117.8231586,Panino Salsiccia,Oven-Roasted Italian Sausage (crumbled) with Pomodoro Sauce & Mozzarella Cheese. Served Hot. Fresh Ciabatta Roll.,$17.00,"https://menufyproduction.imgix.net/636914161362974122+96216.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO,https://www.OrderCentro.com/,33.7419795,-117.8231586,Panino Tonno,,$15.00,
+CENTRO,https://www.OrderCentro.com/,33.7419795,-117.8231586,Small House Salad,"Spring Mix with Fennel, Radicchio, Red Onion & Carrots Topped with Fig Balsamic & Extra Virgin Olive Oil.",$6.00,"https://menufyproduction.imgix.net/636918268724626537+96873.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO,https://www.OrderCentro.com/,33.7419795,-117.8231586,Panino Cotto,,$12.00,
+CENTRO,https://www.OrderCentro.com/,33.7419795,-117.8231586,Panino Parma,,$16.00,
+CENTRO,https://www.OrderCentro.com/,33.7419795,-117.8231586,Pizza Bianca,"Plain Pizza with Extra Virgin Olive Oil, Fresh Rosemary - Salt & Pepper. No Cheese on this Pizza.",$13.00,"https://menufyproduction.imgix.net/636915942871562796+96377.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO,https://www.OrderCentro.com/,33.7419795,-117.8231586,Pizza Burrata,Plain Pizza with Fresh Burrata Cheese & Cherry or Heirloom Tomatoes. Topped with Extra Virgin Olive Oil.,$23.00,"https://menufyproduction.imgix.net/636915943745406466+96378.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO,https://www.OrderCentro.com/,33.7419795,-117.8231586,Pizza Calzone,"Fresh Mozzarella Cheese, Ricotta Cheese, Parmigiano Cheese, Choice of Italian Cotto Ham or Salame wrapped in Pizza Dough, Topped with San Marzano Tomatoes & Basil and Cooked in our Pizza Oven.",$23.00,"https://menufyproduction.imgix.net/636915944388055745+96379.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO,https://www.OrderCentro.com/,33.7419795,-117.8231586,Pizza Cotto Carciofi,"San Marzano Tomatoes, Italian Ham, Artichokes, Olives & Fresh Mozzarella Cheese.",$17.00,"https://menufyproduction.imgix.net/636918267054140139+96870.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO,https://www.OrderCentro.com/,33.7419795,-117.8231586,Pizza Funghi,"San Marzano Tomatoes, Mushrooms, Italian Ham & Fresh Mozzarella Cheese.",$16.00,"https://menufyproduction.imgix.net/636915950115783886+96385.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO,https://www.OrderCentro.com/,33.7419795,-117.8231586,Pizza Margherita,"San Marzano Tomatoes, Fresh Basil & Fresh Mozzarella Cheese.",$17.00,"https://menufyproduction.imgix.net/636918267300350743+96871.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO,https://www.OrderCentro.com/,33.7419795,-117.8231586,Pizza Melanzane,"San Marzano Tomatoes, Sliced Egg Plant, Fresh Basil, Garlic Oil & Fresh Mozzarella Cheese.",$15.00,"https://menufyproduction.imgix.net/636915949553329189+96381.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO,https://www.OrderCentro.com/,33.7419795,-117.8231586,Pizza Napoletana,"San Marzano Tomatoes, Anchovies, Capers & Fresh Mozzarella Cheese.",$15.00,"https://menufyproduction.imgix.net/636915950364889566+96387.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO,https://www.OrderCentro.com/,33.7419795,-117.8231586,Pizza Patate,"Plain Pizza with Fresh Mozzarella Cheese, Thinly Sliced Potatoes, Fresh Rosemary & Thinly Sliced Pancetta. Topped with Extra Virgin Olive Oil.",$14.00,"https://menufyproduction.imgix.net/636915950495629052+96388.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO,https://www.OrderCentro.com/,33.7419795,-117.8231586,Pizza Prosciutto,San Marzano Tomatoes & Fresh Mozzarella Cheese. Topped with Fresh Arugula & Italian Prosciutto di Parma Ham.,$20.00,"https://menufyproduction.imgix.net/636915950566034632+96389.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO,https://www.OrderCentro.com/,33.7419795,-117.8231586,Pizza Salame,"San Marzano Tomatoes, SPICY Italian Salame & Fresh Mozzarella Cheese.",$16.00,"https://menufyproduction.imgix.net/636915950704929356+96390.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO,https://www.OrderCentro.com/,33.7419795,-117.8231586,Pizza Salsiccia,"San Marzano Tomatoes, Local Italian Sausage, Fresh Basil & Fresh Mozzarella Cheese.",$18.00,"https://menufyproduction.imgix.net/636915949844140938+96383.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO,https://www.OrderCentro.com/,33.7419795,-117.8231586,Pizza Scamorza,"Pizza Bianca w/Smoked Mozzarella Cheese, Fresh Rosemary & Thinly-Sliced Pancetta or Speck (Italian Smoked Prosciutto Ham).",$15.00,"https://menufyproduction.imgix.net/636915949961186749+96384.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO,https://www.OrderCentro.com/,33.7419795,-117.8231586,Pizza Vegetariana,"San Marzano Tomatoes, Mushrooms, Red Onion, Fresh Basil, Olives, Garlic Roasted Bell Peppers, Arugula & Fresh Mozzarella Cheese.",$18.00,"https://menufyproduction.imgix.net/636918267965915004+96872.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO,https://www.OrderCentro.com/,33.7419795,-117.8231586,Pizza 4 Stagioni,"San Marzano Tomatoes, Mushrooms, Artichokes, Olives, Italian Ham & Fresh Mozzarella Cheese. Seasoned with Oregano Leaves.",$24.00,"https://menufyproduction.imgix.net/636915949773389228+96382.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO,https://www.OrderCentro.com/,33.7419795,-117.8231586,Pizza Capricciosa,"San Marzano Tomatoes, Italian Ham, Artichokes, Olives, Spicy Salame, Mushrooms & Fresh Mozzarella Cheese.",$18.00,"https://menufyproduction.imgix.net/636947713415860543+102296.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,PANE della Casa,House Made Bread (Plain & w/Tomato),$3.00,"https://menufyproduction.imgix.net/637930104171377850+856029.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,Caprese,"Bocconcini Mozzarella, Basil, Heirloom Tomatoes & Olive Oil",$21.00,"https://menufyproduction.imgix.net/637415858351306585+322035.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,Cesare,"Romaine Lettuce, Croutons, Parmigiano Cheese, Cesare Dressing, White Anchovy",$13.00,"https://menufyproduction.imgix.net/637415858793372388+322037.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,Chopped,"Chopped Romaine Lettuce, Radicchio, Fennel, Red Onion, Ceci Beans, Chopped Tomato, French Nicoise Olives & Shaved Parmigiano Cheese",$15.00,"https://menufyproduction.imgix.net/637415844015183314+322038.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,Insalata Mista,"Romaine Lettuce, Frisée, Carrot, Heirloom Tomatoes, Radicchio & Fennel",$12.00,"https://menufyproduction.imgix.net/637415859797983176+322063.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,Pere Gorgonzola,"Romaine & Arugula, Topped with Pear Slices, Walnuts & Crumbled Gorgonzola Cheese",$17.00,"https://menufyproduction.imgix.net/637630312207636397+518309.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,Verdure Fritte,,$14.00,
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,Minestra,House Made Lentil Soup,$13.00,"https://menufyproduction.imgix.net/637415860645405393+322065.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,Pasta e Fagioli,"Pasta, Salsiccia, Cannellini Beans & Tomato Broth",$15.00,"https://menufyproduction.imgix.net/637427887664312786+331607.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,Side Salad (SM Lunch),,$6.00,
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,Aglione (bucatini),San Marzano Tomatoes & Garlic,$15.00,"https://menufyproduction.imgix.net/637415857147225059+322058.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,Arrabiata (penne),"San Marzano Tomatoes, Red Chili Flakes & Garlic (SPICY)",$16.00,"https://menufyproduction.imgix.net/637415856701318081+322057.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,Cacio e Pepe (bucatini),Pecorino & Parmigiano Cheese & Freshly Ground Black Pepper,$20.00,"https://menufyproduction.imgix.net/637415856335010200+322056.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,Ragu (fettucine),"San Marzano Tomatoes, Pork, Beef, Veal, Garlic & Onion",$22.00,"https://menufyproduction.imgix.net/637415851433303343+322050.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,Aglio Olio (spaghetti),"Garlic, Anchovy, Red Chili Flakes & Olive Oil",$15.00,"https://menufyproduction.imgix.net/637415857456023346+322059.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,Capperi Olive (casarecce),"San Marzano Tomatoes, Capers, Olives, Garlic & Onion",$16.00,"https://menufyproduction.imgix.net/637415855677267514+322054.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,Gamberi (pappardelle),,$23.00,"https://menufyproduction.imgix.net/637601000274166707+492182.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,Carbonara (spaghetti),"Parmigiano, Pancetta, Egg & Freshly Ground Black Pepper",$20.00,"https://menufyproduction.imgix.net/637415855901794491+322055.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,Vodka (penne),"San Marzano Tomatoes, Shallots, Garlic, Lite Cream & Vodka",$19.00,"https://menufyproduction.imgix.net/637415846598641446+322044.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,Vongole (linguine),"San Marzano Tomatoes, Clams, Shallots, Garlic & Lite Cream",$25.00,"https://menufyproduction.imgix.net/637415846993944188+322045.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,Salsiccia (rigatoni),"Italian Sausage, Tomato Paste, Garlic, Oregano & Lite Cream",$22.00,"https://menufyproduction.imgix.net/637415848849935460+322047.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,Tonno (farfalle),"San Marzano Tomatoes, Shallots & Imported Italian Tuna",$21.00,"https://menufyproduction.imgix.net/637415847438749547+322046.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,Pesto (fusilli),"Fresh Basil, Parmigiano Cheese, Garlic, Pine Nuts & Olive Oil",$17.00,"https://menufyproduction.imgix.net/637415852992916285+322052.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,Rape Salsiccia (orecchiette),,$21.00,"https://menufyproduction.imgix.net/637601000565250093+492183.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,Paccheri alla Panna,"Italian Cotto Ham, Mushrooms, Onion, Parmigiano & Peas in a Lite Cream Sauce",$20.00,"https://menufyproduction.imgix.net/637630317060502749+518310.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,Risotto Asparagi,,$28.00,"https://menufyproduction.imgix.net/637930101036606007+856021.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,Ragu Bianco (paccheri),,$21.00,
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,Genovese (ziti),,$23.00,
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,Porcini Sacchetti,,$24.00,
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,Pollo Griglia,Grilled Chicken Breast w/Arugula & Lemon,$23.00,"https://menufyproduction.imgix.net/637440320710743560+346694.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,Salmone,Grilled Scottish Salmon Fillet (8oz) w/Arugula & Lemon,$29.00,"https://menufyproduction.imgix.net/637415867109667841+322072.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,Salsiccia Griglia (2),Three Grilled Italian Sausage w/Arugula & Lemon,$16.00,"https://menufyproduction.imgix.net/637440321876173241+346697.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,Cotoletta Milanese,Breaded Thin Chicken Breast w/Arugula & Lemon,$27.00,"https://menufyproduction.imgix.net/637415864329759413+322067.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,Polpette Carne,Pozzuoli Family Style Meatballs with Parmesan Cheese,$18.00,"https://menufyproduction.imgix.net/637415867039998977+322071.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,Parmigiana Melanzane,,$23.00,"https://menufyproduction.imgix.net/637930101640984670+856022.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,Vitello Limone Capperi,,$28.00,"https://menufyproduction.imgix.net/638043140660532736+990838.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,Verdure Grigliate,"Grilled Vegetables (Red Pepper, Egg Plant, Zucchini & Red Onion)",$20.00,"https://menufyproduction.imgix.net/637415868587906434+322073.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,Patate Arrosto,Fresh Roasted Potatoes w/Fresh Rosemary,$11.00,"https://menufyproduction.imgix.net/637415864847281350+322068.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,Patate Fritte,Fresh Fried Kennebec Potatoes,$8.00,"https://menufyproduction.imgix.net/637415865352228599+322069.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,Spinaci,"Sauteed Fresh Spinach, Garlic & Olive Oil",$12.00,"https://menufyproduction.imgix.net/637440321099502771+346695.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,KIDS Pasta al Burro,,$9.00,"https://menufyproduction.imgix.net/637440324707043583+346700.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,KIDS Pasta Pomodoro,,$9.00,"https://menufyproduction.imgix.net/637440324814600063+346701.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,KIDS Pasta Ragu,,$12.00,"https://menufyproduction.imgix.net/637440325078081316+346702.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,KIDS Pollo (4oz) + Fries,,$13.00,"https://menufyproduction.imgix.net/637440325309486393+346704.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,KIDS Patatine,,$6.00,"https://menufyproduction.imgix.net/637440325166900428+346703.png?auto=compress,format&h=300&w=300&fit=max"
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,Side of Fruit (kids),,$5.00,
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,Kids Apple Juice,,$4.00,
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,Kids Milk,,$4.00,
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,Kids Lemonade,,$4.00,
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,Kids Soda,,$4.00,
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,Panino Pomodoro,,$12.00,
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,Panino Tacchino,,$11.00,
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,Panino Salame,,$12.00,
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,Panino Cotto,,$12.00,
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,Panino Salsiccia,,$17.00,
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,Panino Tonno,,$15.00,
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,Panino Parma,,$16.00,
+CENTRO STORICO,https://www.OrderCentroStorico.com/,33.74181,-117.8234444,Panino Porchetta,,$18.00,
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,1. Tuna Sub Lunch Special,,$14.99,"https://menufyproduction.imgix.net/638590999380293251+1503931.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,2. Personal Pizza with 1 Topping Lunch Special,,$14.99,"https://menufyproduction.imgix.net/638591001549813519+1503945.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,3. Cold Cut Sub Lunch Special,"9"" cold cut sub.",$14.99,"https://menufyproduction.imgix.net/638590999564183854+1503932.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,4. Meatball Sub Lunch Special,"9"" meatball sub.",$14.99,"https://menufyproduction.imgix.net/638590999678929238+1503933.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,5. Antipasto Salad & Garlic Bread Lunch Special,,$12.99,"https://menufyproduction.imgix.net/638590999883329567+1503934.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,5. Italian Salad & Garlic Bread Lunch Special,,$12.99,"https://menufyproduction.imgix.net/638591000294860642+1503935.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,6. Spaghetti & Meatballs Lunch Special,Served with garlic bread.,$15.49,"https://menufyproduction.imgix.net/638591000390135154+1503936.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,7. Baked Lasagna Lunch Special,Served with garlic bread.,$15.49,"https://menufyproduction.imgix.net/638591001931560171+1503946.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,8. Calzone with 2 Fillings Lunch Special,,$15.99,"https://menufyproduction.imgix.net/638591000418285449+1503937.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,9. Italian Spicy Sub Lunch Special,,$14.99,
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,10. Chicken Parmigiana Lunch Special,Choice of sandwich or spaghetti.,$14.99,"https://menufyproduction.imgix.net/638591000464207127+1503938.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,10. Eggplant Parmigiana Lunch Special,Choice of sandwich or spaghetti.,$14.99,"https://menufyproduction.imgix.net/638591000588083400+1503939.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,11. Chicken Fettuccini Alfredo Lunch Special,,$16.99,"https://menufyproduction.imgix.net/638591000634614135+1503940.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,12. Chicken Pesto Pasta Lunch Special,,$16.99,"https://menufyproduction.imgix.net/638591000734669555+1503941.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,13. Penne Arribiatta Lunch Special,,$14.99,"https://menufyproduction.imgix.net/638591000785635442+1503942.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,14. Mama Mia Pasta Lunch Special,,$14.99,
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,15. Spinach & Chicken Bowtie Pasta Lunch Special,,$16.99,"https://menufyproduction.imgix.net/638591061744542516+1504028.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,16. Meat Ravioli Lunch Special,,$14.99,"https://menufyproduction.imgix.net/638591000942564537+1503943.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,16. Cheese Ravioli Lunch Special,,$14.99,"https://menufyproduction.imgix.net/638591000997967393+1503944.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Medium Pan Pizza with Cup & Char Pepperonis,"Pan pizza, made with homemade pizza sauce, Ameci signature mozzarella cheese, topped with delicious cup & char pepperonis, baked to perfection.",$17.89,"https://menufyproduction.imgix.net/639031295706880698+1927344.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Medium 3 Cheese Pan Pizza with 2 Toppings,Medium 3 cheese pan pizza (only available as a medium size) with 2 toppings included.,$15.99,"https://menufyproduction.imgix.net/638299155768953231+1219123.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Medium Twin Pizza Special,2 medium pizzas (6 slices per pizza) with 1 topping each.,$25.99,
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Large Twin Pizza Special,2 large pizzas (8 slices) with 1 topping.,$30.99,
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Jumbo Twin Pizza Special,2 jumbo pizzas (12 slices) with 1 topping each.,$35.99,
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,"14"" Large 1-Topping Pizza Special",Pick up only.,$15.99,"https://menufyproduction.imgix.net/638590156708368648+1503019.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,"16"" Jumbo 3-Topping Pizza Special",,$23.99,"https://menufyproduction.imgix.net/638590156884380352+1503020.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,"16"" Jumbo 1-Topping Pizza & Wings Special",1 Jumbo pizza with one topping and 8 piece order of wings.,$31.99,
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Great Meal Deal Special,"1 large cheese pizza, 1 spaghetti with meatballs, and 1 antipasto salad.",$36.99,
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,1-Topping Jumbo Pizza,,$39.98,
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Large 1-Topping Pizza & 2-Liter Soda,,$43.98,
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,24 Piece Chicken Munchers,,$9.49,"https://menufyproduction.imgix.net/638590128607204220+1502871.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,7 Piece Mozzarella Marinara,,$9.49,"https://menufyproduction.imgix.net/638590231819811785+1503062.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Side Eggplant Parmigiana,,$9.99,"https://menufyproduction.imgix.net/638590229226735944+1503060.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Buffalo Wings,,$14.99,"https://menufyproduction.imgix.net/638590128727657742+1502872.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Garlic Bread,,$3.99,
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Garlic Bread with Cheese,,$4.99,
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Garlic Cheese Breadsticks,,$9.49,"https://menufyproduction.imgix.net/638590128820730808+1502873.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,15 Piece Potato Cheese Munchers,,$9.49,
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,10 Piece Zucchini Sticks,,$9.49,"https://menufyproduction.imgix.net/638591002548802423+1503947.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,8 Piece Breaded Cheese Ravioli,,$9.49,"https://menufyproduction.imgix.net/638590128866682195+1502874.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,8 Piece Garlic Knots,,$9.49,
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,4 Piece Garlic Cheese Rolls,,$9.99,
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,6 Piece Jalapeno Poppers,,$8.99,
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Pizza Fries,,$9.99,"https://menufyproduction.imgix.net/638590129297075471+1502875.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,French Fries,,$4.99,
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Side of Sausage Links (2),Topped with marinara sauce.,$6.49,
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Side of Meatball (1),Select your quantity of our signature Ameci meatballs and we top them off with marinara sauce.,$1.39,
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Garden Salad,"Iceberg lettuce, romaine lettuce, red cabbage, tomatoes, carrots, black olives and pepperoncinis.",$6.49,"https://menufyproduction.imgix.net/638590998937120077+1503930.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Antipasto Salad,"Lettuce, red cabbage, ham, salami, mortadella, provolone, tomatoes, black olives, peppers and giardiniera.",$10.49,"https://menufyproduction.imgix.net/638590129557176419+1502876.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Italian Salad,"Lettuce, red cabbage, garbanzo beans, black olives, shredded mozzarella, tomatoes and pepperoncinis.",$9.49,"https://menufyproduction.imgix.net/638590129779627645+1502877.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Grilled Chicken Salad,"Grilled chicken breast, lettuce, tomatoes, black olives and shredded mozzarella.",$10.49,
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Caesar Salad,"Romaine lettuce, shredded Parmesan, croutons and Caesar dressing.",$9.49,"https://menufyproduction.imgix.net/638590129865691059+1502878.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Grilled Chicken Caesar Salad,"Grilled chicken breast, romaine lettuce, shredded Parmesan, croutons and Caesar dressing.",$10.49,"https://menufyproduction.imgix.net/638591003297830406+1503948.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Chef Salad,"Ham, turkey, American cheese, egg, lettuce, red cabbage, black olives and sliced tomatoes.",$10.49,"https://menufyproduction.imgix.net/638590130430059688+1502952.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Greek Salad,"Lettuce, tomatoes, Kalamata olives, fetta cheese, cucumber and red onions.",$10.49,"https://menufyproduction.imgix.net/638591003391214005+1503949.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Tuna Salad,"Iceberg lettuce, romaine, red cabbage, carrots, tomatoes, black olives, tuna salad and boiled egg.",$9.99,"https://menufyproduction.imgix.net/638590233892685913+1503063.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Pasta with Marinara Sauce,,$10.99,
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Pasta with Meatballs,,$15.99,"https://menufyproduction.imgix.net/638590130645179204+1502953.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Pasta with Meat Sauce,,$15.99,"https://menufyproduction.imgix.net/638590220496842600+1503058.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Baked Rigatoni,,$12.99,"https://menufyproduction.imgix.net/638590131433263768+1502958.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Pasta with Chicken Parmigiana,,$15.99,"https://menufyproduction.imgix.net/638590131571869915+1502959.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Pasta with Eggplant Parmigiana,,$15.99,
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Pasta with Roasted Garlic Alfredo,,$14.99,"https://menufyproduction.imgix.net/638590131989445323+1502963.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Pasta with Pesto,,$14.99,"https://menufyproduction.imgix.net/638590132072908173+1502964.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Chicken & Broccoli Linguine,"Linguine noodles, white wine sauce, garlic, italian spices, grilled chicken breast, and broccoli.",$17.49,"https://menufyproduction.imgix.net/639031309790175060+1927346.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Baked Lasagna,,$15.99,"https://menufyproduction.imgix.net/638590132232582402+1502965.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Penne Arribiatta,,$14.99,"https://menufyproduction.imgix.net/638590234070040262+1503064.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Spinach and Chicken Bowtie Pasta,,$17.49,"https://menufyproduction.imgix.net/638591060640733918+1504026.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Linguine Clams,,$15.49,"https://menufyproduction.imgix.net/638590132340355444+1502966.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Meat Ravioli,,$15.99,"https://menufyproduction.imgix.net/638590132601311876+1502968.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Cheese Ravioli,,$15.99,"https://menufyproduction.imgix.net/638590132655555577+1502969.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Mama Mia,,$14.99,
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Create Your Own Pizza,,$10.49,
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,"14"" Gluten-Free Crust Pizza",,$18.99,
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,BBQ Chicken Pizza,"Mozzarella, BBQ sauce, topped with chicken, red onion and cilantro.",$14.99,"https://menufyproduction.imgix.net/638590132729176985+1502970.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Meat Lovers Pizza,"Mozzarella, pepperoni, ham, Ameci meatballs and Italian sausage.",$14.99,
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Ranch Chicken Pizza,"Mozzarella, ranch dressing, chicken, mushrooms and red onions.",$14.99,"https://menufyproduction.imgix.net/638590157305057066+1503021.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Vegetarian Pizza,"Mozzarella, fresh tomatoes, mushrooms, green peppers, onions and black olives.",$14.99,"https://menufyproduction.imgix.net/638590132934502938+1502972.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Buffalo Chicken Pizza,"Buffalo sauce, chicken breast and mozzarella.",$14.99,"https://menufyproduction.imgix.net/638598045386780256+1510343.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Garlic Chicken Alfredo Pizza,"Mozzarella, chicken, topped with Ameci Alfredo sauce and roasted garlic.",$14.99,"https://menufyproduction.imgix.net/638590235629596200+1503065.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Margherita Pizza,"Mozzarella, fresh tomatoes and garlic and basil.",$14.99,"https://menufyproduction.imgix.net/638590133247098196+1502975.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Chicken Pesto Pizza,"Mozzarella, pesto sauce and chicken.",$14.99,"https://menufyproduction.imgix.net/638590133167364573+1502974.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,White Knight Pizza,"Mozzarella, ricotta cheese, fresh tomatoes, garlic and oregano.",$14.99,"https://menufyproduction.imgix.net/638590133384474537+1502976.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Hawaiian Pizza,"Loads of Canadian bacon, pineapple and extra mozzarella cheese.",$14.99,"https://menufyproduction.imgix.net/638590133512077505+1502977.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Deluxe Pizza,"Mozzarella, pepperoni, Ameci Italian sausage, green peppers, mushrooms, onions and black olives.",$14.99,"https://menufyproduction.imgix.net/638590235871544854+1503066.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Ricotta & Mozzarella Calzone,,$10.99,"https://menufyproduction.imgix.net/638590133536527423+1502978.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Meat Lovers Calzone,,$15.99,"https://menufyproduction.imgix.net/638590133576698296+1502979.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Vegetarian Calzone,,$15.99,"https://menufyproduction.imgix.net/638590133605009409+1502980.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Combo Calzone,,$15.99,"https://menufyproduction.imgix.net/638590133644709669+1502981.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,BBQ Chicken Calzone,,$15.99,"https://menufyproduction.imgix.net/638590133679841827+1502982.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Hawaiian Calzone,,$15.99,"https://menufyproduction.imgix.net/638590133709453479+1502983.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Turkey Sub,"All white breast meat, mayo, lettuce, tomato, Italian dressing and mozzarella cheese.",$13.49,"https://menufyproduction.imgix.net/638590133835749200+1502984.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Italian Cold Cuts Sub,"Ham, salami, mortadella, provolone cheese, lettuce, tomato and Italian dressing.",$13.49,"https://menufyproduction.imgix.net/638590133947057165+1502985.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Philly Cheese Steak Sub,"Thinly sliced steak, mozzarella cheese, fresh mushrooms, fresh green peppers and onions.",$13.49,"https://menufyproduction.imgix.net/638590133988049864+1502986.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Meatball Sub,"Ameci meatballs, marinara sauce and mozzarella cheese.",$13.49,"https://menufyproduction.imgix.net/638590134081975902+1502987.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Italian Sausage Sub,"Ameci sausage, marinara sauce and mozzarella cheese.",$13.49,"https://menufyproduction.imgix.net/638590242520696477+1503073.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,BBQ Chicken Sub,"Chicken, fresh lettuce, onion and BBQ sauce, mozzarella cheese.",$13.49,"https://menufyproduction.imgix.net/638590134134300158+1502988.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Italian Spicy Sub,"Ham, salami, pepperoni, lettuce, tomatoes, pepperoncini, Italian dressing and mozzarella cheese.",$13.49,"https://menufyproduction.imgix.net/638598070631591049+1510356.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Chicken Parmigiana Sub,"Breaded chicken, marinara sauce and mozzarella cheese.",$13.49,"https://menufyproduction.imgix.net/638590247627918940+1503074.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Chicken Caesar Sub,"Chicken, romaine, Parmesan and Caesar dressing.",$13.49,"https://menufyproduction.imgix.net/638590134217956732+1502989.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Chicken Ranch Sub,"Chicken, lettuce, ranch dressing and mozzarella cheese.",$13.49,"https://menufyproduction.imgix.net/638592731599524954+1506159.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Tuna Sub,"Tuna salad, lettuce, tomato, provolone cheese, mayo and Italian dressing.",$13.49,"https://menufyproduction.imgix.net/638590248649067513+1503075.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Vegetarian Sub,"Tomatoes, lettuce, mushrooms, green peppers, black olives, mayo, onions and mozzarella cheese.",$13.49,
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Eggplant Parmigiana Sub,"Breaded eggplant, marinara sauce and mozzarella cheese.",$13.49,"https://menufyproduction.imgix.net/638590134336066128+1502990.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Spaghetti Marinara Bucket,,$22.99,
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Rigatoni with 8 Meatballs Bucket,,$24.99,
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Spaghetti with 8 Meatballs Bucket,,$26.99,
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,15 Meatballs in Marinara Market,No Pasta - A La Carte Meatballs Topped with Signature Marinara Sauce.,$18.99,
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Spaghetti Meat Sauce Bucket,,$26.99,"https://menufyproduction.imgix.net/638590241687123312+1503072.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Fettuccine Alfredo Bucket,,$25.99,"https://menufyproduction.imgix.net/638590241622300426+1503071.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Pesto Bucket,,$25.99,"https://menufyproduction.imgix.net/638590241553166932+1503070.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Dinner Salad Bucket,,$13.49,
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Caesar Salad Bucket,,$15.49,"https://menufyproduction.imgix.net/638590134525764002+1502991.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Italian Salad Bucket,,$17.49,"https://menufyproduction.imgix.net/638590134617898453+1502992.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Chef Salad Bucket,,$18.49,"https://menufyproduction.imgix.net/638590134721225249+1502993.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Antipasto Salad Bucket,,$18.99,"https://menufyproduction.imgix.net/638590135082581206+1502994.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Chicken Caesar Salad Bucket,,$18.99,
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Greek Salad Bucket,,$18.99,"https://menufyproduction.imgix.net/638590241185425969+1503069.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Side of Ranch,,$1.29,
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Side of Anchovies,,$1.49,
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Side of Jalapenos,,$1.29,
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Side of Butter Sauce,,$1.29,
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Side of Marinara Sauce,,$1.29,
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,New York Cheesecake,,$4.99,"https://menufyproduction.imgix.net/638590240872243361+1503067.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Cannoli,,$4.99,"https://menufyproduction.imgix.net/638590240917296410+1503068.png?auto=compress,format&h=300&w=300&fit=max"
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Tiramisu Sponge Cake,,$5.49,
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Canned Soda,,$1.69,
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,2-Liter Soda,,$4.99,
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Bottled Water,,$1.79,
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Gatorade - 20oz,,$2.99,
+Ameci Pizza Kitchen,https://www.AmeciPizzaKitchenTustin.com/,33.745212,-117.8175679,Glass Soda,,$3.29,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,COMBO 1 (Tandoori Chicken),,$11.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Combo 2 (Chicken Tikka & Vegie),,$12.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Combo 3 (Chicken Tikka Masala),,$14.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Combo 4 (Chicken Tikka & Masala),,$15.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Combo 5 (Chicken Curry & Spinach),,$14.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Combo 6 (Vegie Combo),,$12.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Beef Kabob Roll,,$12.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Chicken Roll,,$11.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,breakfast combo,,$13.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,SODA BOTTLE,,$3.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,SODA CAN,,$1.95,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,PERRIER,,$2.58,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,WATER BOTTLE,,$1.50,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Mango LASSI,,$5.18,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,CHAI,,$2.00,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,SALAM COLA,,$2.50,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Pakola,,$2.50,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Chicken Shahi,,$17.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Chicken Tikka Masala,,$17.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Chicken Curry,,$16.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Lamb Kharai,,$19.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Lamb Curry,,$18.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Chicken Seekh Kabob,,$14.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Tandoori Chicken,,$19.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Seekh Kabob (Beef),,$10.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Chicken Tikka,,$16.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Gola kabob,,$18.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Beef Seekh Kebab,,$16.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Bihari Kabob,,$18.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Chana Masala,,$13.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Daal Tadka,,$13.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Aloo Gobhi,,$15.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Baingan Bharta,,$15.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Saag Paneer,,$15.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Paneer Butter Masala,,$17.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Shahi Paneer,,$17.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Naan,,$2.50,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Garlic Naan,,$3.50,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Chilli Naan,,$3.50,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Roghni Naan,,$4.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Tandoori Roti,,$2.50,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,garlic naan extra,,$1.00,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,poori,,$1.00,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Samosa,,$5.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Raita,,$4.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Sweet Paan,,$4.00,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Chicken Karahi Full,,$39.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Nihari,,$17.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Haleem,,$16.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Magaz Masala,,$21.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Chargah (Full Chicken),,$34.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Chargah Half,,$24.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Goat Kharai Half,,$44.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Beef Paya,,$16.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Goat Karahi Full,,$79.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Taj Karahi (Full),,$49.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Taj Kharai Half,,$29.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Chargah Fry (Full),,$35.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Charsi Kharai Full,,$49.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Chicken Karahi (Half),,$26.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Charsi karahi half,,$29.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,kebab karahi,,$44.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,chicken 65,,$7.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Kata Kat,,$17.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Magaz Nihari,,$21.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Plain Rice,,$4.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Vegetable Biryani,,$14.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Chicken Biryani,,$17.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Beef\goat Pulav,,$20.00,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Gulab Jamun,,$5.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Kheer (Rice Pudding},,$5.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Ras Malai,,$5.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Matka Kulfi Ice Cream,,$4.99,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Veal Pulao MEDIUM TRAY,,$180.00,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Goat Biryani MEDIUM TRAY,,$180.00,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Chicken Biryani MEDIUM TRAY,,$160.00,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Medium Tray Nihari,,$180.00,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Medium Tray Haleem,,$170.00,
+NIKIS Halal Grill & KARAHI,https://www.NikisHalalGrillandKarahi.com/order/,33.7464357,-117.8377217,Veal Biryani (Medium Tray),,$180.00,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Moo Goo Gai Pan Lunch Special,,$14.94,"https://menufyproduction.imgix.net/637690632856180276+573686.png?auto=compress,format&h=300&w=300&fit=max"
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Cashew Chicken Lunch Special,,$14.94,"https://menufyproduction.imgix.net/637690632915972372+573687.png?auto=compress,format&h=300&w=300&fit=max"
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Teriyaki Chicken Lunch Special,,$14.94,"https://menufyproduction.imgix.net/637690632780301344+573685.png?auto=compress,format&h=300&w=300&fit=max"
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Szechuan Beef Lunch Special,,$16.09,"https://menufyproduction.imgix.net/637690633095250455+573690.png?auto=compress,format&h=300&w=300&fit=max"
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Orange Chicken Lunch Special,,$14.94,"https://menufyproduction.imgix.net/637690631606721267+573674.png?auto=compress,format&h=300&w=300&fit=max"
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Black Pepper Lunch Special,,$14.94,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Kung Pao Chicken Lunch Special,,$14.94,"https://menufyproduction.imgix.net/637690631098350320+573672.png?auto=compress,format&h=300&w=300&fit=max"
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Jalapeño Chicken Lunch Special,,$14.94,"https://menufyproduction.imgix.net/637690633057348860+573689.png?auto=compress,format&h=300&w=300&fit=max"
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Curry Chicken Lunch Special,,$14.94,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,BBQ Pork Lunch Special,,$14.94,"https://menufyproduction.imgix.net/637690632995025474+573688.png?auto=compress,format&h=300&w=300&fit=max"
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Broccoli Beef Lunch Special,,$16.09,"https://menufyproduction.imgix.net/637690633201630178+573692.png?auto=compress,format&h=300&w=300&fit=max"
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Mongolian Beef Lunch Special,,$16.09,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Thai Basil Chicken Lunch Special,,$14.94,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Thai Basil Tofu Lunch Special,,$14.94,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Mapo Tofu Lunch Special,,$14.94,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Vegetable Tofu Lunch Special,,$14.94,"https://menufyproduction.imgix.net/637690633155657784+573691.png?auto=compress,format&h=300&w=300&fit=max"
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Szechuan Eggplants Lunch Special,,$14.94,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Ginger Fish Lunch Special,,$16.09,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Wonton Soup,"Chicken wontons simmered with slices of chicken breast, shrimp, BBQ pork, and vegetables in our savory chicken broth.",$9.49,"https://menufyproduction.imgix.net/637690633932970809+573695.png?auto=compress,format&h=300&w=300&fit=max"
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Hot & Sour Soup,"Tofu, bamboo shoots, and wood ear mushrooms seasoned with a hint of white pepper and vinegar.",$7.47,"https://menufyproduction.imgix.net/637690633607411655+573693.png?auto=compress,format&h=300&w=300&fit=max"
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Egg Flower Soup,"A delightful blend of egg, carrots, and water chestnuts.",$7.47,"https://menufyproduction.imgix.net/637690633652268809+573694.png?auto=compress,format&h=300&w=300&fit=max"
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Crispy Cucumber Salad,,$7.99,"https://menufyproduction.imgix.net/637690634169684031+573698.png?auto=compress,format&h=300&w=300&fit=max"
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Seaweed Salad,,$7.99,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Orange Peel,"Top sweet orange sauce, red chili peppers, and scallions for a spicy citrus combination.",$13.74,"https://menufyproduction.imgix.net/637690638719945563+573727.png?auto=compress,format&h=300&w=300&fit=max"
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Kung Pao,"Chili seared soy sauce, scallions, garlic, and peanuts. Served with white rice.",$13.74,"https://menufyproduction.imgix.net/637690638663443963+573726.png?auto=compress,format&h=300&w=300&fit=max"
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Mongolian,"Rich black mushroom soy, sweet oyster sauce, and garlic wok'd with seared green and white onions. Served with white rice.",$13.74,"https://menufyproduction.imgix.net/637690638755892917+573728.png?auto=compress,format&h=300&w=300&fit=max"
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Thai Basil,"Wok tossed with flavorful Thai chili paste, basil, and garlic. Served with white rice.",$13.74,"https://menufyproduction.imgix.net/637690639345197383+573732.png?auto=compress,format&h=300&w=300&fit=max"
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Teriyaki,Sweet Japanese soy glaze topped with toasted sesame seeds. Served with white rice.,$13.74,"https://menufyproduction.imgix.net/637690639470840379+573734.png?auto=compress,format&h=300&w=300&fit=max"
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Fresh Vegetables,"Wok tossed with rice wine, garlic, broccoli, snow peas, carrots, Napa cabbage, bamboo shoots, and water chestnuts. Served with white rice.",$13.74,"https://menufyproduction.imgix.net/637690641222851056+573749.png?auto=compress,format&h=300&w=300&fit=max"
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Curry,Yellow curry stewed with carrots and brown onions. Served with white rice.,$13.74,"https://menufyproduction.imgix.net/637690639431988447+573733.png?auto=compress,format&h=300&w=300&fit=max"
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Szechuan,"Sautéed garlic, white onion and celery with our traditional Chinese Szechuan sauce.",$13.74,"https://menufyproduction.imgix.net/637690640645294432+573742.png?auto=compress,format&h=300&w=300&fit=max"
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Black Pepper,"Sautéed white onion, mushroom, green bell pepper with our house special black pepper sauce.",$13.74,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Jalapeño,"Sautéed garlic, white onion, and carrot with brown sauce.",$13.74,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Beef & Broccoli,Tender beef and fresh broccoli stir-fried in a garlic soy. Served with white rice.,$16.04,"https://menufyproduction.imgix.net/637690636787295845+573715.png?auto=compress,format&h=300&w=300&fit=max"
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Walnut Shrimp,"Lightly battered shrimp and honey glazed walnuts folded in a rich, creamy sauce. Served with white rice.",$18.34,"https://menufyproduction.imgix.net/637690635732502294+573706.png?auto=compress,format&h=300&w=300&fit=max"
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Kung Pao 3 Delight,"A medley of chicken, beef, and shrimp tossed with chili-seared soy sauce",$17.19,"https://menufyproduction.imgix.net/637690630453422026+573670.png?auto=compress,format&h=300&w=300&fit=max"
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Szechuan Eggplant,"Chinese’s eggplant deep fried wok’d with less sweet, and your choice spicy level sauce.",$13.74,"https://menufyproduction.imgix.net/637690637698580554+573721.png?auto=compress,format&h=300&w=300&fit=max"
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Fish Ginger with Scallion,"Sole fillet wok with garlic, ginger, onions, and oyster soy sauce with white rice.",$14.66,"https://menufyproduction.imgix.net/637690637578649640+573720.png?auto=compress,format&h=300&w=300&fit=max"
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Sweet & Sour Chicken,Breaded chicken tossed in our favorite Cantonese sweet and sour sauce. Served with white rice.,$14.37,"https://menufyproduction.imgix.net/637690636722124454+573714.png?auto=compress,format&h=300&w=300&fit=max"
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Cashew Chicken,"Diced chicken sautéed with rice wine, garlic, mushroom soy, celery, and cashews. Served with white rice.",$14.66,"https://menufyproduction.imgix.net/637690636635456959+573713.png?auto=compress,format&h=300&w=300&fit=max"
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Mongolian Trio,"Chicken breast, beef, and shrimp wok'd together in black mushroom soy with a splash of wine. Served with white rice.",$17.19,"https://menufyproduction.imgix.net/637690635654698428+573705.png?auto=compress,format&h=300&w=300&fit=max"
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Green Bean Chicken,White meat chicken sautéed with fresh green beans and green onions in brown sauce.,$14.66,"https://menufyproduction.imgix.net/637690637516849910+573719.png?auto=compress,format&h=300&w=300&fit=max"
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Ma Po Tofu,Soft tofu simmered in a spicy garlic sauce. Served with white rice.,$13.74,"https://menufyproduction.imgix.net/637690636827243105+573716.png?auto=compress,format&h=300&w=300&fit=max"
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Mu Shu Chicken,"Wok’d with egg, carrots, green onions, bamboo shoots, black ear, mushroom, and Mushu wraps on the side.",$14.66,"https://menufyproduction.imgix.net/637690637731239029+573722.png?auto=compress,format&h=300&w=300&fit=max"
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Filet Mignon French Style,Peppered steak cuts on a bed of grilled onion. Served with white rice.,$19.49,"https://menufyproduction.imgix.net/637690637457344967+573718.png?auto=compress,format&h=300&w=300&fit=max"
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Fish with Hot Garlic Sauce,"Sole filet wok'd with garlic, ginger, onion, soy bean, chili, and rice wine. Served with white rice.",$16.96,"https://menufyproduction.imgix.net/637690637384469557+573717.png?auto=compress,format&h=300&w=300&fit=max"
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,B.B.Q Pork,Roast fresh pork with secret B.B.Q sauce.,$14.37,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Sesame Chicken,Battered and fried chicken leg pieces that are then tossed with sesame.,$14.37,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Walnut Chicken,Chicken with honey-glazed walnuts folded in a rich creamy sauce.,$17.19,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Moo Goo Gai Pan,"Sliced Chickens and mushrooms finished in a white sauce, and bamboo shoots.",$14.66,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Chow Mein,"Chinese egg noodles wok'd with green and white onions, cabbage, carrots, and bean sprouts.",$15.58,"https://menufyproduction.imgix.net/637690622629983183+573657.png?auto=compress,format&h=300&w=300&fit=max"
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Fried Rice,"Rice wok'd with egg, peas, carrots, and green onions.",$15.58,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Chow Fun,"Wide rice noodles stir-fried with scallion, white onions, and bean sprouts.",$15.58,"https://menufyproduction.imgix.net/637690622691340491+573658.png?auto=compress,format&h=300&w=300&fit=max"
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Singapore Fried Rice,"The rice wok’d with egg yolk, carrots, peas, green onions, and mild spicy from the curry flavor.",$17.19,"https://menufyproduction.imgix.net/637690622745652432+573659.png?auto=compress,format&h=300&w=300&fit=max"
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Pad Thai Noodle,"Chicken, shrimp, and tofu.",$17.19,"https://menufyproduction.imgix.net/637690622796778279+573660.png?auto=compress,format&h=300&w=300&fit=max"
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Beef Gyudon Rice Bowl,"Beef thin slices with marinated onion, sweet yellow radish with seaweed salad on tray.",$12.59,"https://menufyproduction.imgix.net/637690621669252456+573652.png?auto=compress,format&h=300&w=300&fit=max"
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Orange Bowl,"Topped with sweet orange sauce, red chili peppers, and scallions for a spicy citrus combination.",$12.59,"https://menufyproduction.imgix.net/637690621669252456+573652.png?auto=compress,format&h=300&w=300&fit=max"
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Vegetable Egg Rolls,,$5.23,"https://menufyproduction.imgix.net/637690618943318243+573614.png?auto=compress,format&h=300&w=300&fit=max"
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Cream Cheese Wontons,,$5.23,"https://menufyproduction.imgix.net/637690619146549836+573616.png?auto=compress,format&h=300&w=300&fit=max"
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Fried Chicken Dumplings (8),,$10.64,"https://menufyproduction.imgix.net/637690621121614676+573645.png?auto=compress,format&h=300&w=300&fit=max"
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,White Rice,,$2.01,"https://menufyproduction.imgix.net/637690619770339319+573620.png?auto=compress,format&h=300&w=300&fit=max"
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Shrimp Tempura,,$6.32,"https://menufyproduction.imgix.net/637690618986069875+573615.png?auto=compress,format&h=300&w=300&fit=max"
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Fried Rice,,$2.24,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Chow Mein,,$6.32,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Hong Kong Cha Shu Bun,"Soft, fluffy steamed buns filled with savory Chinese BBQ pork or char siu. They are absolutely delicious!",$6.61,"https://menufyproduction.imgix.net/637690621327671834+573649.png?auto=compress,format&h=300&w=300&fit=max"
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Steamed Shrimp Dumplings (4),,$8.34,"https://menufyproduction.imgix.net/637690621069790074+573644.png?auto=compress,format&h=300&w=300&fit=max"
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Steamed Chicken Dumplings (8),,$10.64,"https://menufyproduction.imgix.net/637690621121614676+573645.png?auto=compress,format&h=300&w=300&fit=max"
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Crispy Noodles,,$2.25,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Brown Rice,,$2.01,"https://menufyproduction.imgix.net/637690619825514150+573634.png?auto=compress,format&h=300&w=300&fit=max"
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Steamed Vegetables,,$6.32,"https://menufyproduction.imgix.net/637690619770339319+573620.png?auto=compress,format&h=300&w=300&fit=max"
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Szechuan Wontons (10),Flavorful homemade chicken wontons cooked with spicy Szechuan sauce.,$14.66,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Almond Cookies,,$5.74,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Almond Cookies (9),,$5.74,"https://menufyproduction.imgix.net/637690620052289084+573635.png?auto=compress,format&h=300&w=300&fit=max"
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Soda,,$2.88,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Thai Tea,,$6.32,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Milk Tea,,$6.32,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Snapple Tea,,$4.54,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Vegetable Egg Rolls (20),,$36.00,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Shrimp Dumplings (24),,$39.00,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Potstickers (30),,$33.00,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Cream Cheese Wonton (20),,$31.00,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Shrimp Tempura (20),,$52.00,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Crispy Cucumber Salad (Party),,$33.00,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Teriyaki Chicken Salad (Party),,$49.00,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Seaweed Salad (Party),,$39.00,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Chow Mein (Party),,$49.00,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Fried Rice (Party),,$49.00,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Pad Thai (Party),,$59.00,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,White Rice (Party),,$23.00,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Chow Fun (Party),,$49.00,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Brown Rice (Party),,$23.00,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Kung Pao (Party),,$52.00,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Orange (Party),,$52.00,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Coconut Curry (Party),,$52.00,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Black Pepper (Party),,$52.00,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Jalapenos (Party),,$52.00,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Szechuan Styler (Party),,$52.00,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Szechuan Eggplant (Party),,$52.00,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Mongolian (Party),,$52.00,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Sweet & Sour (Party),,$52.00,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Teriyaki (Party),,$52.00,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Thai Basil (Party),,$52.00,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Fresh Vegetables Saute (Party),,$52.00,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Mapo Tofu (Party),,$58.00,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Sesame Chicken (Party),,$62.00,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Mushu Chicken (Party),,$62.00,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Moo Goo Gai Pan (Party),,$62.00,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Cashew Chicken (Party),,$62.00,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Green Bean Chicken (Party),,$62.00,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Beef & Broccoli (Party),,$72.00,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Walnut Chicken (Party),,$72.00,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Ginger Fish (Party),,$73.00,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Hot Garlic Fish (Party),,$73.00,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Mongolian Trio (Party),,$78.00,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Kung Pao Three Delight (Party),,$78.00,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Walnut Shrimp (Party),,$85.00,
+KPB Asian Bistro,https://www.KPBAsianBistroTustinCA.com/,33.7463325,-117.8242281,Filet Mignon French Style (Party),,$129.00,

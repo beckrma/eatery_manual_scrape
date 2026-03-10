@@ -1,0 +1,202 @@
+[
+  {
+    "restaurant": "Nguyen's Kitchen",
+    "type": "logo",
+    "image_url": "https://menufyproduction.imgix.net/636888699224629175+90727.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "local_path": "nguyens_kitchen_images\\636888699224629175+90727.png",
+    "latitude": 33.7815681,
+    "longitude": -117.8669912
+  },
+  {
+    "restaurant": "Nguyen's Kitchen",
+    "type": "item_image",
+    "image_url": "https://menufyproduction.imgix.net/637544424146493344+434400.png?auto=compress,format&h=300&w=300&fit=max",
+    "local_path": "nguyens_kitchen_images\\637544424146493344+434400.png",
+    "latitude": 33.7815681,
+    "longitude": -117.8669912
+  },
+  {
+    "restaurant": "Nguyen's Kitchen",
+    "type": "item_image",
+    "image_url": "https://menufyproduction.imgix.net/637544423051031245+434393.png?auto=compress,format&h=300&w=300&fit=max",
+    "local_path": "nguyens_kitchen_images\\637544423051031245+434393.png",
+    "latitude": 33.7815681,
+    "longitude": -117.8669912
+  },
+  {
+    "restaurant": "Nguyen's Kitchen",
+    "type": "item_image",
+    "image_url": "https://menufyproduction.imgix.net/637544423147582412+434394.png?auto=compress,format&h=300&w=300&fit=max",
+    "local_path": "nguyens_kitchen_images\\637544423147582412+434394.png",
+    "latitude": 33.7815681,
+    "longitude": -117.8669912
+  },
+  {
+    "restaurant": "Nguyen's Kitchen",
+    "type": "item_image",
+    "image_url": "https://menufyproduction.imgix.net/637544425423562544+434422.png?auto=compress,format&h=300&w=300&fit=max",
+    "local_path": "nguyens_kitchen_images\\637544425423562544+434422.png",
+    "latitude": 33.7815681,
+    "longitude": -117.8669912
+  },
+  {
+    "restaurant": "Nguyen's Kitchen",
+    "type": "item_image",
+    "image_url": "https://menufyproduction.imgix.net/638457656021087572+434445.png?auto=compress,format&h=300&w=300&fit=max",
+    "local_path": "nguyens_kitchen_images\\638457656021087572+434445.png",
+    "latitude": 33.7815681,
+    "longitude": -117.8669912
+  },
+  {
+    "restaurant": "Nguyen's Kitchen",
+    "type": "item_image",
+    "image_url": "https://menufyproduction.imgix.net/637544423252843058+434395.png?auto=compress,format&h=300&w=300&fit=max",
+    "local_path": "nguyens_kitchen_images\\637544423252843058+434395.png",
+    "latitude": 33.7815681,
+    "longitude": -117.8669912
+  },
+  {
+    "restaurant": "Nguyen's Kitchen",
+    "type": "item_image",
+    "image_url": "https://menufyproduction.imgix.net:443/638119067898630372+1056463.png?auto=compress,format&fit=max&w=1024&h=1024",
+    "local_path": "nguyens_kitchen_images\\638119067898630372+1056463.png",
+    "latitude": 33.7815681,
+    "longitude": -117.8669912
+  },
+  {
+    "restaurant": "Nguyen's Kitchen",
+    "type": "item_image",
+    "image_url": "https://menufyproduction.imgix.net/637703596860910804+587105.png?auto=compress,format&h=300&w=300&fit=max",
+    "local_path": "nguyens_kitchen_images\\637703596860910804+587105.png",
+    "latitude": 33.7815681,
+    "longitude": -117.8669912
+  },
+  {
+    "restaurant": "Nguyen's Kitchen",
+    "type": "item_image",
+    "image_url": "https://production-cdn-hdb5b9fwgnb9bdf9.z01.azurefd.net/sitecontent/website/images/blue_venmo_acceptance_mark.svg?lu=7a3280d8dc085164952fbd8bfac0505f",
+    "local_path": "nguyens_kitchen_images\\blue_venmo_acceptance_mark.svg",
+    "latitude": 33.7815681,
+    "longitude": -117.8669912
+  },
+  {
+    "restaurant": "Nguyen's Kitchen",
+    "type": "item_image",
+    "image_url": "https://menufyproduction.imgix.net/637544424759946205+434414.png?auto=compress,format&h=300&w=300&fit=max",
+    "local_path": "nguyens_kitchen_images\\637544424759946205+434414.png",
+    "latitude": 33.7815681,
+    "longitude": -117.8669912
+  },
+  {
+    "restaurant": "Nguyen's Kitchen",
+    "type": "item_image",
+    "image_url": "https://menufyproduction.imgix.net/637544424065880942+434399.png?auto=compress,format&h=300&w=300&fit=max",
+    "local_path": "nguyens_kitchen_images\\637544424065880942+434399.png",
+    "latitude": 33.7815681,
+    "longitude": -117.8669912
+  },
+  {
+    "restaurant": "Nguyen's Kitchen",
+    "type": "item_image",
+    "image_url": "https://menufyproduction.imgix.net/637544425158491164+434418.png?auto=compress,format&h=300&w=300&fit=max",
+    "local_path": "nguyens_kitchen_images\\637544425158491164+434418.png",
+    "latitude": 33.7815681,
+    "longitude": -117.8669912
+  },
+  {
+    "restaurant": "Nguyen's Kitchen",
+    "type": "item_image",
+    "image_url": "https://menufyproduction.imgix.net/637544425502484890+434423.png?auto=compress,format&h=300&w=300&fit=max",
+    "local_path": "nguyens_kitchen_images\\637544425502484890+434423.png",
+    "latitude": 33.7815681,
+    "longitude": -117.8669912
+  },
+  {
+    "restaurant": "Nguyen's Kitchen",
+    "type": "item_image",
+    "image_url": "https://menufyproduction.imgix.net/637544425369059874+434421.png?auto=compress,format&h=300&w=300&fit=max",
+    "local_path": "nguyens_kitchen_images\\637544425369059874+434421.png",
+    "latitude": 33.7815681,
+    "longitude": -117.8669912
+  },
+  {
+    "restaurant": "Nguyen's Kitchen",
+    "type": "item_image",
+    "image_url": "https://menufyproduction.imgix.net/637544423432951649+434396.png?auto=compress,format&h=300&w=300&fit=max",
+    "local_path": "nguyens_kitchen_images\\637544423432951649+434396.png",
+    "latitude": 33.7815681,
+    "longitude": -117.8669912
+  },
+  {
+    "restaurant": "Nguyen's Kitchen",
+    "type": "item_image",
+    "image_url": "https://menufyproduction.imgix.net/638808509846969283+1735011.png?max-h=300&max-w=1000&fit=crop",
+    "local_path": "nguyens_kitchen_images\\638808509846969283+1735011.png",
+    "latitude": 33.7815681,
+    "longitude": -117.8669912
+  },
+  {
+    "restaurant": "Nguyen's Kitchen",
+    "type": "item_image",
+    "image_url": "https://menufyproduction.imgix.net/637544424263252225+434410.png?auto=compress,format&h=300&w=300&fit=max",
+    "local_path": "nguyens_kitchen_images\\637544424263252225+434410.png",
+    "latitude": 33.7815681,
+    "longitude": -117.8669912
+  },
+  {
+    "restaurant": "Nguyen's Kitchen",
+    "type": "item_image",
+    "image_url": "https://menufyproduction.imgix.net/637827289644378724+734486.png?auto=compress,format&h=300&w=300&fit=max",
+    "local_path": "nguyens_kitchen_images\\637827289644378724+734486.png",
+    "latitude": 33.7815681,
+    "longitude": -117.8669912
+  },
+  {
+    "restaurant": "Nguyen's Kitchen",
+    "type": "item_image",
+    "image_url": "https://menufyproduction.imgix.net/637544425253669942+434419.png?auto=compress,format&h=300&w=300&fit=max",
+    "local_path": "nguyens_kitchen_images\\637544425253669942+434419.png",
+    "latitude": 33.7815681,
+    "longitude": -117.8669912
+  },
+  {
+    "restaurant": "Nguyen's Kitchen",
+    "type": "item_image",
+    "image_url": "https://menufyproduction.imgix.net/637544424889431124+434415.png?auto=compress,format&h=300&w=300&fit=max",
+    "local_path": "nguyens_kitchen_images\\637544424889431124+434415.png",
+    "latitude": 33.7815681,
+    "longitude": -117.8669912
+  },
+  {
+    "restaurant": "Nguyen's Kitchen",
+    "type": "item_image",
+    "image_url": "https://menufyproduction.imgix.net/637544423498296916+434397.png?auto=compress,format&h=300&w=300&fit=max",
+    "local_path": "nguyens_kitchen_images\\637544423498296916+434397.png",
+    "latitude": 33.7815681,
+    "longitude": -117.8669912
+  },
+  {
+    "restaurant": "Nguyen's Kitchen",
+    "type": "item_image",
+    "image_url": "https://production-cdn-hdb5b9fwgnb9bdf9.z01.azurefd.net/sitecontent/website/images/google_pay_mark.svg?lu=cf44cd3474c8b0bf717ebf03dff9bae6",
+    "local_path": "nguyens_kitchen_images\\google_pay_mark.svg",
+    "latitude": 33.7815681,
+    "longitude": -117.8669912
+  },
+  {
+    "restaurant": "Nguyen's Kitchen",
+    "type": "item_image",
+    "image_url": "https://menufyproduction.imgix.net/638457656050773097+1374710.png?auto=compress,format&h=300&w=300&fit=max",
+    "local_path": "nguyens_kitchen_images\\638457656050773097+1374710.png",
+    "latitude": 33.7815681,
+    "longitude": -117.8669912
+  },
+  {
+    "restaurant": "Nguyen's Kitchen",
+    "type": "item_image",
+    "image_url": "https://menufyproduction.imgix.net/637544424974728380+434416.png?auto=compress,format&h=300&w=300&fit=max",
+    "local_path": "nguyens_kitchen_images\\637544424974728380+434416.png",
+    "latitude": 33.7815681,
+    "longitude": -117.8669912
+  }
+]
