@@ -1,17 +1,15 @@
 from playwright.sync_api import sync_playwright
+from database.insert_data import EateryDB
 import pandas as pd
 import re
 import json
 import time
-import random
 
 test_restaurant = [
     {"name": "Nguyen's Kitchen", "url": "https://orange.ordernguyenskitchen.com/"}
 ]
 
 # Json Storage
-all_items = []
-r_prob = {"restaurant": [], "url": []}
 rest_info = []
 
 items_count = 0
@@ -60,6 +58,8 @@ def is_problematic(page, response):
 with sync_playwright() as p:
     browser = p.chromium.launch(headless=False)  # headless=True to hide browser
     page = browser.new_page()
+    Eatery_DB = EateryDB()
+    Eatery_DB.connect() # Connecting to database
 
     for r in test_restaurant:
         print(f"\n🌐 Scraping {r['name']} ...")
@@ -81,11 +81,6 @@ with sync_playwright() as p:
         for _ in range(5):
             page.evaluate("window.scrollBy(0, window.innerHeight);")
             time.sleep(1)
-        
-        if (is_problematic(page, response) == True): # Checks if website is "problematic" (means that no content is available to scrape)
-            r_prob["restaurant"].append(r['name'])
-            r_prob["url"].append(r['url'])
-            pass
 
         # -------- Extract Theme, Logo, and Lattitude/Longitude --------
 
@@ -129,8 +124,6 @@ with sync_playwright() as p:
         categories = page.locator("new-menufy-category")
         category_count = categories.count()
 
-        menu_json = []
-
         for i in range(category_count):
             category = categories.nth(i)
     
@@ -163,28 +156,19 @@ with sync_playwright() as p:
                 })
                 items_count += 1
         
-            menu_json.append({
+            Eatery_DB.insert({
                 "restaurant": r["name"],
                 "category": cat_name,
                 "category_description": cat_desc,
                 "items": item_list
             })
-
-        all_items.append(menu_json)
         
     browser.close()
 
 # -------------------------------
 # SAVE RESULTS
 # -------------------------------
-df = pd.DataFrame(all_items)
-prob_df = pd.DataFrame(r_prob)
-rest_df = pd.DataFrame(rest_info)
-df.to_csv("menus_agentic.csv", index=False)
-prob_df.to_csv("menus_prob.csv", index=False)
-rest_df.to_csv("rest_info.csv", index=False)
-with open("menus_agentic.json", "w", encoding="utf-8") as f:
-    json.dump(all_items, f, ensure_ascii=False, indent=4)
+
 with open("restaurant_info.json", "w", encoding="utf-8") as i:
     json.dump(rest_info, i, ensure_ascii=False, indent=4 )
 print(f"\n✅ Finished scraping {items_count} item(s) from {len(test_restaurant)} restaurant(s)")
