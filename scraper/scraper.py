@@ -9,48 +9,8 @@ test_restaurant = [
     {"name": "Nguyen's Kitchen", "url": "https://orange.ordernguyenskitchen.com/"}
 ]
 
-# Json Storage
-rest_info = []
-
 items_count = 0
-# -------------------------------
-# HELPER FUNCTIONS
-# -------------------------------
-def extract_prices(text):
-    """Extract all $ prices from text"""
-    return re.findall(r'\$\d+(?:\.\d{2})?', text)
 
-def clean_text(text):
-    """Remove extra whitespace and newlines"""
-    if not text:
-        return ""
-    return " ".join(text.strip().split())
-
-skip_keywords = [
-    "home", "about", "locations", "menu", "rewards", "franchising",
-    "gift", "login", "sign", "order", "checkout",
-    "career", "privacy", "cookie", "terms", "subscribe", "newsletter", "Access Denied", "Attention Required", "Verify you are human", "Just a moment...."
-]
-
-def is_valid(text):
-    text = text.lower()
-    if len(text.strip()) < 5:
-        return False
-    if any(k in text for k in skip_keywords):
-        return False
-    return True
-
-def is_problematic(page, response):
-    if page.title() in skip_keywords:
-        return True
-    if page.locator("iframe[src*='captcha']").count() > 0: # Detects captchas
-        return True
-    if response.status == "403" or response.status == "429" or response.status == "503": # Detects response issues
-        return True
-    html = page.content()
-    if "cloudflare" in html.lower(): # Checks if on cloudflare verification
-        return True
-    return False
 
 # -------------------------------
 # MAIN SCRAPER
@@ -105,7 +65,7 @@ with sync_playwright() as p:
         rest_lat = page.evaluate("window._locationLat")
         rest_lng = page.evaluate("window._locationLng")
 
-        rest_info.append({
+        Eatery_DB.insert({
             "restaurant": rest_name,
             "logo_img": logo,
             "header_img": header,
@@ -116,8 +76,7 @@ with sync_playwright() as p:
             "address": rest_address,
             "latitude_coordinates": rest_lat,
             "longitude_coordinates": rest_lng
-        }
-        )
+        }, 2)
 
         # -------- Extract all Categories and Menu Items --------
         
@@ -157,18 +116,12 @@ with sync_playwright() as p:
                 items_count += 1
         
             Eatery_DB.insert({
-                "restaurant": r["name"],
+                "restaurant": page.title(),
                 "category": cat_name,
                 "category_description": cat_desc,
                 "items": item_list
-            })
+            }, 1)
         
     browser.close()
 
-# -------------------------------
-# SAVE RESULTS
-# -------------------------------
-
-with open("restaurant_info.json", "w", encoding="utf-8") as i:
-    json.dump(rest_info, i, ensure_ascii=False, indent=4 )
 print(f"\n✅ Finished scraping {items_count} item(s) from {len(test_restaurant)} restaurant(s)")

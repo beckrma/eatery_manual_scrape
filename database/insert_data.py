@@ -27,6 +27,17 @@ class EateryDB:
         except Exception as e:
             print(e)
     
-    def insert(self, record):
-        items_collection = self.db['menu_items']
-        items_collection.insert_one(record)
+    def insert(self, record, type): # type=1 for menu_items, type=2 for restaurant_info
+        filter_query = {"restaurant": record["restaurant"]}
+        if type == 1:
+            items_collection = self.db['menu_items']
+            filter_query = {"restaurant": record["restaurant"],
+                            "category": record["category"]
+                            }
+        else:
+            items_collection = self.db['rest_info']
+        items_collection.update_one(
+                filter_query,
+                { "$set": record},
+                upsert=True
+            )
