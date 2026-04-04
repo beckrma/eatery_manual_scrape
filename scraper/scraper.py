@@ -72,7 +72,7 @@ with sync_playwright() as p:
                     restaurant = context.new_page()
                     restaurant.goto(rest_href)
                     for _ in range(5):
-                        page.evaluate("window.scrollBy(0, window.innerHeight);")
+                        restaurant.evaluate("window.scrollBy(0, window.innerHeight);")
                         time.sleep(1)
 
             
@@ -160,7 +160,7 @@ with sync_playwright() as p:
 
                     restaurant.close()
                 city_rest.close()
-            cities.close()
+            city_page.close()
         states.close()
                 
         
