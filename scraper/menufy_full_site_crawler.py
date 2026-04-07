@@ -9,9 +9,9 @@ MENUFY_URL = "https://www.menufy.com/"
 DEEP_SCRAPE_RESTAURANTS = True
 
 # Keep None for full crawl. Set numeric values for testing.
-MAX_STATES = None
-MAX_CITIES_PER_STATE = None
-MAX_RESTAURANTS_PER_CITY = None
+MAX_STATES = 1
+MAX_CITIES_PER_STATE = 2
+MAX_RESTAURANTS_PER_CITY = 2
 
 HEADLESS = True
 PAUSE_SECONDS = 0.4
@@ -37,6 +37,14 @@ def normalize_url(base_url: str, href: str):
     if href.startswith("//"):
         return "https:" + href
     return urljoin(base_url, href)
+
+
+def parse_tag_text(raw: str):
+    if not raw:
+        return []
+    txt = raw.replace("\xa0", " ").replace("&nbsp;", " ")
+    parts = [clean_text(p) for p in txt.split(",")]
+    return [p for p in parts if p]
 
 
 def extract_state_links(page):
@@ -95,8 +103,10 @@ def extract_restaurants(page, state_name, state_url, city_name, city_url):
             lat = a.get_attribute("data-lat")
             lon = a.get_attribute("data-lon")
             address = a.get_attribute("data-address")
-            location_id = a.get_attribute("m-id")
-            domain = a.get_attribute("domain")
+            cuisines_node = a.query_selector("p.list-group-item-text.cuisines")
+            attributes_node = a.query_selector("p.list-group-item-text.attributes")
+            cuisines_text = clean_text(cuisines_node.inner_text()) if cuisines_node else ""
+            attributes_text = clean_text(attributes_node.inner_text()) if attributes_node else ""
         except Exception:
             continue
 
@@ -107,18 +117,21 @@ def extract_restaurants(page, state_name, state_url, city_name, city_url):
 
         restaurants.append(
             {
-                "state_name": state_name,
-                "city_name": city_name,
-                "restaurant_name": name,
+                "restaurant": name,
                 "restaurant_url": url,
+                "logo_img": "",
+                "header_img": "",
+                "restaurant_description": "",
+                "restaurant_hours": "",
+                "extra_hours": "",
+                "phone_number": "",
                 "address": (address or "").strip(),
-                "_latitude_search": float(lat) if lat else None,
-                "_longitude_search": float(lon) if lon else None,
-                "logo_url": "",
-                "latitude": None,
-                "longitude": None,
-                "phone": "",
-                "hours": "",
+                "latitude_coordinates": float(lat) if lat else None,
+                "longitude_coordinates": float(lon) if lon else None,
+                "state": state_name,
+                "city": city_name,
+                "cuisines_tags": parse_tag_text(cuisines_text),
+                "attributes_tags": parse_tag_text(attributes_text),
             }
         )
     return restaurants
@@ -131,6 +144,33 @@ def get_logo_url(page):
         "img[alt*='logo' i]",
         "header img",
         ".navbar-brand img",
+    ]
+    for sel in selectors:
+        try:
+            if sel.startswith("meta"):
+                node = page.query_selector(sel)
+                if node:
+                    content = node.get_attribute("content")
+                    if content and content.startswith("http"):
+                        return content
+            else:
+                node = page.query_selector(sel)
+                if node:
+                    src = node.get_attribute("src")
+                    if src:
+                        return normalize_url(page.url, src)
+        except Exception:
+            continue
+    return ""
+
+
+def get_header_image_url(page):
+    selectors = [
+        "meta[property='og:image']",
+        "img.header-img",
+        ".jumbotron img",
+        ".hero img",
+        "main img",
     ]
     for sel in selectors:
         try:
@@ -171,6 +211,32 @@ def extract_phone(page):
             return href.replace("tel:", "").strip()
     except Exception:
         pass
+    return ""
+
+
+def extract_description(page):
+    selectors = [
+        "meta[name='description']",
+        "meta[property='og:description']",
+        ".description",
+        ".restaurant-description",
+        ".about-restaurant",
+    ]
+    for sel in selectors:
+        try:
+            node = page.query_selector(sel)
+            if not node:
+                continue
+            if sel.startswith("meta"):
+                content = clean_text(node.get_attribute("content") or "")
+                if content:
+                    return content
+            else:
+                txt = clean_text(node.inner_text())
+                if txt:
+                    return txt
+        except Exception:
+            continue
     return ""
 
 
@@ -233,6 +299,30 @@ def extract_hours(page):
         pass
 
     return ""
+
+
+def extract_extra_hours(page):
+    try:
+        txt = page.evaluate(
+            """() => {
+                const host = document.querySelector('new-menufy-open-hours-dropdown');
+                if (!host || !host.shadowRoot) return '';
+                const rows = host.shadowRoot.querySelectorAll('div.flex.flex-row.items-center.justify-between.pb-2.border-b.border-lightGrey');
+                const out = [];
+                rows.forEach((row) => {
+                    const spans = row.querySelectorAll('span');
+                    if (spans.length >= 2) {
+                        const left = (spans[0].textContent || '').replace(/\\s+/g, ' ').trim();
+                        const right = (spans[1].textContent || '').replace(/\\s+/g, ' ').trim();
+                        if (left || right) out.push(`${left}: ${right}`.trim());
+                    }
+                });
+                return out.join(' | ');
+            }"""
+        )
+        return clean_text(txt) if txt else ""
+    except Exception:
+        return ""
 
 
 def extract_menu_items_from_shadow(page):
@@ -567,25 +657,31 @@ def main():
                     page.wait_for_timeout(500)
 
                 logo_url = get_logo_url(page)
+                header_img = get_header_image_url(page)
                 lat_page, lon_page = extract_coordinates_from_page(page)
-                lat = lat_page if lat_page is not None else r.get("_latitude_search")
-                lon = lon_page if lon_page is not None else r.get("_longitude_search")
+                lat = lat_page if lat_page is not None else r.get("latitude_coordinates")
+                lon = lon_page if lon_page is not None else r.get("longitude_coordinates")
                 phone = extract_phone(page)
                 address = extract_address_from_page(page) or r.get("address", "")
                 hours = extract_hours(page)
+                extra_hours_info = extract_extra_hours(page)
+                rest_desc = extract_description(page)
 
-                r["logo_url"] = logo_url
-                r["latitude"] = lat
-                r["longitude"] = lon
-                r["phone"] = phone
+                r["logo_img"] = logo_url
+                r["header_img"] = header_img
+                r["restaurant_description"] = rest_desc
+                r["restaurant_hours"] = hours
+                r["extra_hours"] = extra_hours_info
+                r["latitude_coordinates"] = lat
+                r["longitude_coordinates"] = lon
+                r["phone_number"] = phone
                 r["address"] = address
-                r["hours"] = hours
 
                 menu_groups = extract_menu_items(page)
                 for g in menu_groups:
                     menu_rows.append(
                         {
-                            "restaurant": r["restaurant_name"],
+                            "restaurant": r["restaurant"],
                             "category": g["category"],
                             "category_description": g["category_description"],
                             "items": g["items"],
@@ -594,11 +690,6 @@ def main():
                 time.sleep(PAUSE_SECONDS)
 
         browser.close()
-
-    # Remove internal fields before writing final JSON.
-    for r in restaurant_rows:
-        r.pop("_latitude_search", None)
-        r.pop("_longitude_search", None)
 
     with open("menufy_all_restaurants.json", "w", encoding="utf-8") as f:
         json.dump(restaurant_rows, f, ensure_ascii=False, indent=2)
