@@ -77,7 +77,7 @@ with sync_playwright() as p:
                     try:
                         restaurant.goto(rest_href)
                     except Exception as e:
-                        print(f"Navigation failed for {rest_href}: e")
+                        print(f"Navigation failed for {rest_href}: {e}")
                         continue
                     for _ in range(5):
                         restaurant.evaluate("window.scrollBy(0, window.innerHeight);")
@@ -85,44 +85,47 @@ with sync_playwright() as p:
 
             
                     # -------- Extract Theme, Logo, and Lattitude/Longitude --------
+                    try:
+                        logo_meta = restaurant.locator('meta[property="og:image"]')
+                        logo = logo_meta.get_attribute("content")
 
-                    logo_meta = restaurant.locator('meta[property="og:image"]')
-                    logo = logo_meta.get_attribute("content")
+                        header = restaurant.locator("img.hero-img").get_attribute("src")
 
-                    header = restaurant.locator("img.hero-img").get_attribute("src")
+                        rest_name = restaurant.title()
 
-                    rest_name = restaurant.title()
+                        rest_desc = restaurant.locator('meta[name="description"]')
+                        rest_desc = rest_desc.get_attribute("content")
 
-                    rest_desc = restaurant.locator('meta[name="description"]')
-                    rest_desc = rest_desc.get_attribute("content")
+                        rest_hours = restaurant.locator("#open-hours-root").first.inner_text()
 
-                    rest_hours = restaurant.locator("#open-hours-root").first.inner_text()
+                        extra_hours_info = restaurant.locator(".dropdown-menu.w-full.hours-dropdown").inner_text()
 
-                    extra_hours_info = restaurant.locator(".dropdown-menu.w-full.hours-dropdown").inner_text()
+                        rest_phone_num = restaurant.locator('[title="Phone"]').inner_text()
 
-                    rest_phone_num = restaurant.locator('[title="Phone"]').inner_text()
+                        rest_address = address = restaurant.locator('a[target="_blank"][href*="maps.google.com"]').inner_text()
 
-                    rest_address = address = restaurant.locator('a[target="_blank"][href*="maps.google.com"]').inner_text()
+                        rest_lat = restaurant.evaluate("window._locationLat")
+                        rest_lng = restaurant.evaluate("window._locationLng")
 
-                    rest_lat = restaurant.evaluate("window._locationLat")
-                    rest_lng = restaurant.evaluate("window._locationLng")
-
-                    Eatery_DB.insert({
-                        "restaurant": rest_name,
-                        "logo_img": logo,
-                        "header_img": header,
-                        "restaurant_description": rest_desc,
-                        "restaurant_hours": rest_hours,
-                        "extra_hours": extra_hours_info,
-                        "phone_number": rest_phone_num,
-                        "address": rest_address,
-                        "latitude_coordinates": rest_lat,
-                        "longitude_coordinates": rest_lng,
-                        "state": state_title,
-                        "city": city_title,
-                        "cuisine_tags": restaurant_cuisine_tags,
-                        "attribute_tags": restaurant_attribute_tags
-                    }, 2)
+                        Eatery_DB.insert({
+                            "restaurant": rest_name,
+                            "logo_img": logo,
+                            "header_img": header,
+                            "restaurant_description": rest_desc,
+                            "restaurant_hours": rest_hours,
+                            "extra_hours": extra_hours_info,
+                            "phone_number": rest_phone_num,
+                            "address": rest_address,
+                            "latitude_coordinates": rest_lat,
+                            "longitude_coordinates": rest_lng,
+                            "state": state_title,
+                            "city": city_title,
+                            "cuisine_tags": restaurant_cuisine_tags,
+                            "attribute_tags": restaurant_attribute_tags
+                        }, 2)
+                    except Exception as e:
+                        print(f"Restaurant information scraping failed for {rest_href}: {e}")
+                        continue
 
                     # -------- Extract all Categories and Menu Items --------
                     
@@ -130,43 +133,47 @@ with sync_playwright() as p:
                     category_count = categories.count()
 
                     for g in range(category_count):
-                        category = categories.nth(g)
-                
-                        # Grab the category name
-                        cat_name = category.locator("#cat-name").inner_text()
-
-                        # Grab the category description (if available)
-                        cat_desc = category.locator("#menu-category-description").inner_text()
-                        
-                        # Grab all items inside this category
-                        items = category.locator("new-menufy-item-card")
-                        item_list = []
-                        for j in range(items.count()):
-                            item = items.nth(j)
-                            item_name = item.locator(".item-name").inner_text()
-                            item_price = item.locator(".item-price span").first.inner_text()
-                            item_description = item.locator(".item-description").inner_text()
-                            style = item.locator(".item-image-wrapper").evaluate("el => el.style.backgroundImage")
-                            image_url = None
-                            if style:
-                                match = re.search(r'url\(["\']?(.*?)["\']?\)', style)
-                                if match:
-                                    image_url = match.group(1)
-
-                            item_list.append({
-                                "name": item_name,
-                                "price": item_price,
-                                "description": item_description,
-                                "item_image": image_url
-                            })
-                            items_count += 1
+                        try:
+                            category = categories.nth(g)
                     
-                        Eatery_DB.insert({
-                            "restaurant": restaurant.title(),
-                            "category": cat_name,
-                            "category_description": cat_desc,
-                            "items": item_list
-                        }, 1)
+                            # Grab the category name
+                            cat_name = category.locator("#cat-name").inner_text()
+
+                            # Grab the category description (if available)
+                            cat_desc = category.locator("#menu-category-description").inner_text()
+                            
+                            # Grab all items inside this category
+                            items = category.locator("new-menufy-item-card")
+                            item_list = []
+                            for j in range(items.count()):
+                                item = items.nth(j)
+                                item_name = item.locator(".item-name").inner_text()
+                                item_price = item.locator(".item-price span").first.inner_text()
+                                item_description = item.locator(".item-description").inner_text()
+                                style = item.locator(".item-image-wrapper").evaluate("el => el.style.backgroundImage")
+                                image_url = None
+                                if style:
+                                    match = re.search(r'url\(["\']?(.*?)["\']?\)', style)
+                                    if match:
+                                        image_url = match.group(1)
+
+                                item_list.append({
+                                    "name": item_name,
+                                    "price": item_price,
+                                    "description": item_description,
+                                    "item_image": image_url
+                                })
+                                items_count += 1
+                        
+                            Eatery_DB.insert({
+                                "restaurant": restaurant.title(),
+                                "category": cat_name,
+                                "category_description": cat_desc,
+                                "items": item_list
+                            }, 1)
+                        except Exception as e:
+                            print(f"Menu item scraping failed for {rest_href} : {e}")
+                            continue
 
                     restaurant.close()
                 city_rest.close()
