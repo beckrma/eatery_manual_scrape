@@ -67,6 +67,10 @@ with sync_playwright() as p:
                 restaurants = city_rest.locator(".list-group a")
                 restaurants_count = restaurants.count()
                 for z in range(restaurants_count):
+
+                    restaurant_cuisine_tags = restaurants.nth(z).locator(".list-group-item-text.cuisines").inner_text()
+                    restaurant_attribute_tags = restaurants.nth(z).locator(".list-group-item-text.attributes").inner_text()
+
                     rest_href = restaurants.nth(z).get_attribute("href")
 
                     restaurant = context.new_page()
@@ -111,7 +115,9 @@ with sync_playwright() as p:
                         "latitude_coordinates": rest_lat,
                         "longitude_coordinates": rest_lng,
                         "state": state_title,
-                        "city": city_title
+                        "city": city_title,
+                        "cuisine_tags": restaurant_cuisine_tags,
+                        "attribute_tags": restaurant_attribute_tags
                     }, 2)
 
                     # -------- Extract all Categories and Menu Items --------
