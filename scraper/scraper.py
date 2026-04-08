@@ -74,9 +74,8 @@ with sync_playwright() as p:
 
                     rest_href = restaurants.nth(z).get_attribute("href")
                     restaurant = context.new_page()
-                    restaurant_url = urljoin("https://www.menufy.com/", rest_href)
                     try:
-                        restaurant.goto(restaurant_url, 60000)
+                        restaurant.goto(rest_href, timeout=60000)
                     except Exception as e:
                         print(f"Navigation failed for {rest_href}: {e}")
                         continue
