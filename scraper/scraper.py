@@ -1,9 +1,8 @@
 from playwright.sync_api import sync_playwright
 from database.insert_data import EateryDB
-import pandas as pd
 import re
-import json
 import time
+from urllib.parse import urljoin
 
 test_restaurant = [
     {"name": "Menufy", "url": "https://www.menufy.com/"}
@@ -53,7 +52,8 @@ with sync_playwright() as p:
             state_title = states.nth(i).inner_text()
 
             city_page = context.new_page()
-            city_page.goto(f"https://www.menufy.com/{state_href}")
+            city_url = urljoin("https://www.menufy.com/", state_href)
+            city_page.goto(city_url, timeout=60000)
 
             cities = city_page.locator(".cities a")
             cities_count = cities.count()
@@ -62,7 +62,8 @@ with sync_playwright() as p:
                 city_title = cities.nth(y).inner_text()
 
                 city_rest = context.new_page()
-                city_rest.goto(f"https://www.menufy.com/{city_href}")
+                city_rest_url = urljoin("https://www.menufy.com/", city_href)
+                city_rest.goto(city_rest_url, timeout=60000)
 
                 restaurants = city_rest.locator(".list-group a")
                 restaurants_count = restaurants.count()
@@ -72,10 +73,10 @@ with sync_playwright() as p:
                     restaurant_attribute_tags = restaurants.nth(z).locator(".list-group-item-text.attributes").inner_text()
 
                     rest_href = restaurants.nth(z).get_attribute("href")
-
                     restaurant = context.new_page()
+                    restaurant_url = urljoin("https://www.menufy.com/", rest_href)
                     try:
-                        restaurant.goto(rest_href)
+                        restaurant.goto(restaurant_url, 60000)
                     except Exception as e:
                         print(f"Navigation failed for {rest_href}: {e}")
                         continue
