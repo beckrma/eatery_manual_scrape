@@ -86,10 +86,15 @@ with sync_playwright() as p:
             
                     # -------- Extract Theme, Logo, and Lattitude/Longitude --------
                     try:
-                        logo_meta = restaurant.locator('meta[property="og:image"]')
-                        logo = logo_meta.get_attribute("content")
-
-                        header = restaurant.locator("img.hero-img").get_attribute("src")
+                        try:
+                            logo_meta = restaurant.locator('meta[property="og:image"]')
+                            logo = logo_meta.get_attribute("content")
+                        except TimeoutError as t:
+                            logo = "Null"
+                        try:
+                            header = restaurant.locator("img.hero-img").get_attribute("src")
+                        except TimeoutError as t:
+                            header = "Null"
 
                         rest_name = restaurant.title()
 
