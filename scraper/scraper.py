@@ -48,6 +48,8 @@ def main_scraping(state_list):
                         main_page.goto(rest_href, timeout=60000)
                     except Exception as e:
                         print(f"Navigation failed for {rest_href}: {e}")
+                        main_page.close()
+                        main_page = context.new_page()
                         continue
             
                     # -------- Extract Theme, Logo, and Lattitude/Longitude --------
@@ -64,14 +66,14 @@ def main_scraping(state_list):
 
                         rest_name = main_page.title()
 
-                        rest_desc = main_page.locator('meta[name="description"]')
+                        rest_desc = main_page.locator('meta[name="description"]').first.inner_text()
                         rest_desc = rest_desc.get_attribute("content")
 
                         rest_hours = main_page.locator("#open-hours-root").first.inner_text()
 
                         extra_hours_info = main_page.locator(".dropdown-menu.w-full.hours-dropdown").inner_text()
 
-                        rest_phone_num = main_page.locator('[title="Phone"]').inner_text()
+                        rest_phone_num = main_page.locator('[title="Phone"]').first.inner_text()
 
                         rest_address = main_page.locator('a[target="_blank"][href*="maps.google.com"]').inner_text()
 
@@ -103,6 +105,8 @@ def main_scraping(state_list):
                         }, 2)
                     except Exception as e:
                         print(f"Restaurant information scraping failed for {rest_href}: {e}")
+                        main_page.close()
+                        main_page = context.new_page()
                         continue
 
                     # -------- Extract all Categories and Menu Items --------
@@ -150,6 +154,8 @@ def main_scraping(state_list):
                             }, 1)
                         except Exception as e:
                             print(f"Menu item scraping failed for {rest_href} : {e}")
+                            main_page.close()
+                            main_page = context.new_page()
                             continue
         browser.close()
     return

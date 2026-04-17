@@ -3,7 +3,7 @@ from multiprocessing import Pool
 from scraper import scraper
 
 test_restaurant = [
-    {"name": "Menufy", "url": "https://www.menufy.com/"}
+    {"name": "Menufy", "url": "https://order.menufy.com/"}
 ]
 
 
