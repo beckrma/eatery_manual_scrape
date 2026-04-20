@@ -24,20 +24,19 @@ class EateryDB:
         try:
             client.admin.command('ping')
             self.db = client['scraped_restaurants']
+            self.collection = self.db['menu_items']
         except Exception as e:
             print(e)
     
-    def insert(self, record, type): # type=1 for menu_items, type=2 for restaurant_info
-        filter_query = {"restaurant": record["restaurant"]}
-        if type == 1:
-            items_collection = self.db['menu_items']
-            filter_query = {"restaurant": record["restaurant"],
-                            "category": record["category"]
+    def insert(self, record):
+        filter_query = {"_id": record["_id"]
                             }
-        else:
-            items_collection = self.db['rest_info']
-        items_collection.update_one(
+        self.collection.update_one(
                 filter_query,
                 { "$set": record},
                 upsert=True
             )
+        
+    def get_restaurant(self, key):
+        doc = self.collection.find_one(key)
+        return doc

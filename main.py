@@ -7,13 +7,16 @@ test_restaurant = [
 ]
 
 
-def state_splits(state_locator): # goal of function is to create multiple partitions of states
+def state_splits(state_locator, save_file): # goal of function is to create multiple partitions of states
     states_count = state_locator.count()
     splits = []
     split_partition = None
     split_total = 0
     for i in range(states_count):
         state_href = state_locator.nth(i).get_attribute("href")
+        state_name = state_locator.nth(i).inner_text()
+        if (state_name in save_file):
+            continue
         if (split_total) == 0:
             split_partition = []
             split_partition.append(state_href)
@@ -33,22 +36,54 @@ def state_splits(state_locator): # goal of function is to create multiple partit
 
 
 def run():
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False)  # headless=True to hide browser
+    while (True):
+        user_in = input("Would you like to run scraper with save file? (Y/N): ")
+        if (user_in == 'Y' or user_in == 'y'):
+            with open("state_save.txt", "r") as f:
+                content = f.readlines()
+            if (not content):
+                print("Save file is empty!")
+                exit()
+            with sync_playwright() as p:
+                browser = p.chromium.launch(headless=False)  # headless=True to hide browser
 
-        context = browser.new_context()
-        main_page = context.new_page()
-        for r in test_restaurant:
-            print(f"\n🌐 Scraping {r['name']} ...")
-            main_page.goto(r["url"])
+                context = browser.new_context()
+                main_page = context.new_page()
+                for r in test_restaurant:
+                    print(f"\n🌐 Scraping {r['name']} ...")
+                    main_page.goto(r["url"])
 
-            # -------- Iterating Through States --------
-            states = main_page.locator(".state-columns a")
-            state_partitions = state_splits(states)
-            main_page.close()
-            with Pool(processes=len(state_partitions)) as p:
-                p.map(scraper.main_scraping, state_partitions)
-    print(f"\n✅ Finished scraping!")
+                    # -------- Iterating Through States --------
+                    states = main_page.locator(".state-columns a")
+                    state_partitions = state_splits(states, content)
+                    main_page.close()
+                    with Pool(processes=len(state_partitions)) as p:
+                        p.map(scraper.main_scraping, state_partitions)
+            print(f"\n✅ Finished scraping!")
+            exit()
+        elif (user_in == 'N' or user_in == 'n'):
+            with open("state_save.txt", "w") as f:
+                pass
+            with sync_playwright() as p:
+                browser = p.chromium.launch(headless=False)  # headless=True to hide browser
+
+                context = browser.new_context()
+                main_page = context.new_page()
+                for r in test_restaurant:
+                    print(f"\n🌐 Scraping {r['name']} ...")
+                    main_page.goto(r["url"])
+
+                    # -------- Iterating Through States --------n
+                    states = main_page.locator(".state-columns a")
+                    state_partitions = state_splits(states, [])
+                    main_page.close()
+                    with Pool(processes=len(state_partitions)) as p:
+                        p.map(scraper.main_scraping, state_partitions)
+            print(f"\n✅ Finished scraping!")
+            exit()
+        else:
+            print("Response not recognized, please try again.")
+            
 
 
 
