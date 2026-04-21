@@ -20,6 +20,8 @@ def get_restaurants(rest_locator):
     for z in range(restaurants_count):
         restaurant_cuisine_tags = rest_locator.nth(z).locator(".list-group-item-text.cuisines").inner_text()
         restaurant_attribute_tags = rest_locator.nth(z).locator(".list-group-item-text.attributes").inner_text()
+        restaurant_rating = None
+        restaurant_review_count = None
         try:
             restaurant_rating = rest_locator.nth(z).locator(".stars").evaluate("""
             el => el.childNodes[0].textContent.trim()
@@ -33,10 +35,7 @@ def get_restaurants(rest_locator):
             }
             """)
         except TimeoutError:
-            if not restaurant_rating:
-                restaurant_rating = None
-            if not restaurant_review_count:
-                restaurant_review_count = None
+            pass
         rest_href = rest_locator.nth(z).get_attribute("href")
         restaurants.append((restaurant_cuisine_tags, restaurant_attribute_tags, restaurant_rating, restaurant_review_count, rest_href))
     return restaurants
@@ -149,8 +148,9 @@ def main_scraping(state_list):
                             
                             # Grab all items inside this category
                             items = category.locator("new-menufy-item-card")
+                            items_count = items.count()
                             item_list = []
-                            for j in range(items.count()):
+                            for j in range(items_count):
                                 item = items.nth(j)
                                 item_name = item.locator(".item-name").inner_text()
                                 item_price = item.locator(".item-price span").first.inner_text()
@@ -204,6 +204,7 @@ def main_scraping(state_list):
                         "menu_items": cat_storage,
                         "last_scraped": datetime.now(UTC)
                     })
+            print(f"finished state {last_scraped_state}")
             with open("state_save.txt", "a") as f:
                 f.write(f"{last_scraped_state}\n")
     
