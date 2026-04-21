@@ -20,17 +20,23 @@ def get_restaurants(rest_locator):
     for z in range(restaurants_count):
         restaurant_cuisine_tags = rest_locator.nth(z).locator(".list-group-item-text.cuisines").inner_text()
         restaurant_attribute_tags = rest_locator.nth(z).locator(".list-group-item-text.attributes").inner_text()
-        restaurant_rating = rest_locator.nth(z).locator(".stars").evaluate("""
-        el => el.childNodes[0].textContent.trim()
-        """)
-        restaurant_review_count = rest_locator.nth(z).locator(".rating").evaluate("""
-        el => {
-        const clone = el.cloneNode(true);
-        const stars = clone.querySelector('.stars');
-        if (stars) stars.remove();
-        return clone.textContent.trim();
-        }
-        """)
+        try:
+            restaurant_rating = rest_locator.nth(z).locator(".stars").evaluate("""
+            el => el.childNodes[0].textContent.trim()
+            """)
+            restaurant_review_count = rest_locator.nth(z).locator(".rating").evaluate("""
+            el => {
+            const clone = el.cloneNode(true);
+            const stars = clone.querySelector('.stars');
+            if (stars) stars.remove();
+            return clone.textContent.trim();
+            }
+            """)
+        except TimeoutError:
+            if not restaurant_rating:
+                restaurant_rating = None
+            if not restaurant_review_count:
+                restaurant_review_count = None
         rest_href = rest_locator.nth(z).get_attribute("href")
         restaurants.append((restaurant_cuisine_tags, restaurant_attribute_tags, restaurant_rating, restaurant_review_count, rest_href))
     return restaurants
@@ -44,6 +50,7 @@ def main_scraping(state_list):
         browser = p.chromium.launch(headless=False)  # headless=True to hide browser
         context = browser.new_context()
         main_page = context.new_page()
+        last_scraped_state = None
         for state in state_list:
             city_url = urljoin("https://www.menufy.com/", state)
             main_page.goto(city_url, timeout=60000)
@@ -99,8 +106,15 @@ def main_scraping(state_list):
                         doc = Eatery_DB.get_restaurant(query)
                         if (doc):
                             date = doc.get("last_scraped")
-                            if (date > (datetime.now(UTC) - timedelta(days=30))):
-                                continue
+                            if date:
+                                if date.tzinfo is None:
+                                    # DB stripped timezone → assume it's UTC
+                                    date = date.replace(tzinfo=UTC)
+
+                                cutoff = datetime.now(UTC) - timedelta(days=30)
+
+                                if date > cutoff:
+                                    continue
 
                         state_title = main_page.evaluate("""
                             () => {
@@ -109,6 +123,7 @@ def main_scraping(state_list):
                                 return data.address.addressRegion;
                             }
                             """)
+                        last_scraped_state = state_title
 
                     except Exception as e:
                         print(f"Restaurant information scraping failed for {rest_href}: {e}")
@@ -190,7 +205,7 @@ def main_scraping(state_list):
                         "last_scraped": datetime.now(UTC)
                     })
             with open("state_save.txt", "a") as f:
-                f.write(f"{state_title}\n")
+                f.write(f"{last_scraped_state}\n")
     
         browser.close()
     return

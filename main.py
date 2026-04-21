@@ -15,7 +15,7 @@ def state_splits(state_locator, save_file): # goal of function is to create mult
     for i in range(states_count):
         state_href = state_locator.nth(i).get_attribute("href")
         state_name = state_locator.nth(i).inner_text()
-        if (state_name in save_file):
+        if (f"{state_name}\n" in save_file):
             continue
         if (split_total) == 0:
             split_partition = []
@@ -76,6 +76,7 @@ def run():
                     # -------- Iterating Through States --------n
                     states = main_page.locator(".state-columns a")
                     state_partitions = state_splits(states, [])
+                    print(state_partitions)
                     main_page.close()
                     with Pool(processes=len(state_partitions)) as p:
                         p.map(scraper.main_scraping, state_partitions)
