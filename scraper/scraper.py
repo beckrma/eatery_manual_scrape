@@ -9,9 +9,12 @@ def get_city_links(city_locator):
     cities = []
     cities_count = city_locator.count()
     for y in range(cities_count):
-        city_href = city_locator.nth(y).get_attribute("href")
-        city_title = city_locator.nth(y).inner_text()
-        cities.append((city_title, city_href))
+        try:
+            city_href = city_locator.nth(y).get_attribute("href")
+            city_title = city_locator.nth(y).inner_text()
+            cities.append((city_title, city_href))
+        except TimeoutError:
+            pass
     return cities
 
 def get_restaurants(rest_locator):
@@ -26,6 +29,9 @@ def get_restaurants(rest_locator):
             restaurant_rating = rest_locator.nth(z).locator(".stars").evaluate("""
             el => el.childNodes[0].textContent.trim()
             """)
+        except TimeoutError:
+            restaurant_rating = None
+        try:
             restaurant_review_count = rest_locator.nth(z).locator(".rating").evaluate("""
             el => {
             const clone = el.cloneNode(true);
@@ -35,7 +41,7 @@ def get_restaurants(rest_locator):
             }
             """)
         except TimeoutError:
-            pass
+            restaurant_review_count = None
         rest_href = rest_locator.nth(z).get_attribute("href")
         restaurants.append((restaurant_cuisine_tags, restaurant_attribute_tags, restaurant_rating, restaurant_review_count, rest_href))
     return restaurants
@@ -75,21 +81,33 @@ def main_scraping(state_list):
                         try:
                             logo_meta = main_page.locator('meta[property="og:image"]')
                             logo = logo_meta.get_attribute("content")
-                        except TimeoutError as t:
-                            logo = "Null"
+                        except TimeoutError:
+                            logo = None
                         try:
                             header = main_page.locator("img.hero-img").get_attribute("src")
-                        except TimeoutError as t:
-                            header = "Null"
+                        except TimeoutError:
+                            header = None
 
+                        rest_title = main_page.locator("h1.hero-text").inner_text()
 
-                        rest_desc = main_page.locator('meta[name="description"]').first.get_attribute("content")
+                        try:
+                            rest_desc = main_page.locator('meta[name="description"]').first.get_attribute("content")
+                        except TimeoutError:
+                            rest_desc = None
+                        try:
+                            rest_hours = main_page.locator("#open-hours-root").first.inner_text().strip()
+                        except TimeoutError:
+                            rest_hours = None
 
-                        rest_hours = main_page.locator("#open-hours-root").first.inner_text().strip()
+                        try:
+                            extra_hours_info = main_page.locator(".dropdown-menu.w-full.hours-dropdown").inner_text().strip()
+                        except TimeoutError:
+                            extra_hours_info = None
 
-                        extra_hours_info = main_page.locator(".dropdown-menu.w-full.hours-dropdown").inner_text().strip()
-
-                        rest_phone_num = main_page.locator('[title="Phone"]').first.inner_text()
+                        try:
+                            rest_phone_num = main_page.locator('[title="Phone"]').first.inner_text()
+                        except TimeoutError:
+                            rest_phone_num = None
 
                         rest_address = main_page.locator('a[target="_blank"][href*="maps.google.com"]').inner_text()
 
@@ -98,7 +116,7 @@ def main_scraping(state_list):
 
                         # CHECK IF REST IS ALREADY SCRAPED AND WHEN
                         query = {"_id": {
-                            "restaurant_name": main_page.title(),
+                            "restaurant_name": rest_title,
                             "address": rest_address,
                             "coords": [float(rest_lng), float(rest_lat)]
                         }}
@@ -144,7 +162,10 @@ def main_scraping(state_list):
                             cat_name = category.locator("#cat-name").inner_text()
 
                             # Grab the category description (if available)
-                            cat_desc = category.locator("#menu-category-description").inner_text()
+                            try:
+                                cat_desc = category.locator("#menu-category-description").inner_text()
+                            except TimeoutError:
+                                cat_desc = None
                             
                             # Grab all items inside this category
                             items = category.locator("new-menufy-item-card")
@@ -154,7 +175,10 @@ def main_scraping(state_list):
                                 item = items.nth(j)
                                 item_name = item.locator(".item-name").inner_text()
                                 item_price = item.locator(".item-price span").first.inner_text()
-                                item_description = item.locator(".item-description").inner_text()
+                                try:
+                                    item_description = item.locator(".item-description").inner_text()
+                                except TimeoutError:
+                                    item_description = None
                                 style = item.locator(".item-image-wrapper").evaluate("el => el.style.backgroundImage")
                                 image_url = None
                                 if style:
@@ -180,8 +204,8 @@ def main_scraping(state_list):
                             continue
 
                     Eatery_DB.insert({
-                        "_id": { "restaurant_name": main_page.title(), "address": rest_address, "coords": [float(rest_lng), float(rest_lat)] },
-                        "restaurant": main_page.title(),
+                        "_id": { "restaurant_name": rest_title, "address": rest_address, "coords": [float(rest_lng), float(rest_lat)] },
+                        "restaurant": rest_title,
                         "logo_img": logo,
                         "header_img": header,
                         "restaurant_description": rest_desc,
